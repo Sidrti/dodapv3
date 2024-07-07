@@ -15,7 +15,7 @@
         <v-card :elevation="isHovering ? 12 : 2" class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/cctv.jpg" height="200px" cover></v-img>
           <v-card-title class="headline">CCTV Cameras</v-card-title>
-          <v-card-text>Expert CCTV installation and support services.</v-card-text>
+          <v-card-text>Secure your property with top-notch HD CCTV installations.</v-card-text>
           <v-card-actions>
             <v-btn color="primary">Book Now</v-btn>
           </v-card-actions>
@@ -27,7 +27,7 @@
         <v-card :elevation="isHovering ? 12 : 2" class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/alarm.jpg" height="200px" cover></v-img>
           <v-card-title class="headline">Security Alarms</v-card-title>
-          <v-card-text>Expert CCTV installation and support services.</v-card-text>
+          <v-card-text>Stay protected with our advanced alarm systems and monitoring.</v-card-text>
           <v-card-actions>
             <v-btn color="primary">Book Now</v-btn>
           </v-card-actions>
@@ -38,8 +38,8 @@
       <v-hover v-slot:default="{ isHovering }">
         <v-card :elevation="isHovering ? 12 : 2" class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/cctv.jpg" height="200px" cover></v-img>
-          <v-card-title class="headline">CCTV/Alarm Technician</v-card-title>
-          <v-card-text>Expert CCTV installation and support services.</v-card-text>
+          <v-card-title class="headline">Tech Services</v-card-title>
+          <v-card-text>Get expert tech solutions and seamless installations at your tips.</v-card-text>
           <v-card-actions>
             <v-btn color="primary">Book Now</v-btn>
           </v-card-actions>

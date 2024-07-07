@@ -22,8 +22,14 @@
       </v-row>
       <v-row class="text-center">
         <v-col cols="12">
+          <h4 class="lead-heading">Expert Security Solutions at Your Fingertips</h4>
           <p class="lead">
-            Managing your technical service needs has never been easier. Our certified professionals, already in your area, are ready to handle your requirements promptly and efficiently. Enjoy transparent pricing and exceptional service quality, tailored to your convenience.
+            Expert Security Solutions at Your Fingertips
+We make securing your home or business effortless and reliable. We specialize in installing CCTV
+cameras, setting up monitored alarm systems, and providing low-voltage tech services. Our
+certified experts troubleshoot and handle all installation tasks, ensuring your surveillance and
+alarms are properly installed and monitored. Our services are prompt, efficient, and tailored to
+your convenience
           </p>
         </v-col>
       </v-row>
@@ -54,9 +60,14 @@
     font-weight: 400;
   }
   .lead {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 300;
     margin-top: 1rem;
+  }
+  .lead-heading {
+    font-size: 2rem;
+    font-weight: 430;
+    margin-top: 2rem;
   }
   </style>
   

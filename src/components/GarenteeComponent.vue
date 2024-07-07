@@ -4,10 +4,11 @@
         <v-col cols="12" md="4" class="d-flex align-center justify-center guarantee-text white--text">
           <div class="text-content pa-4">
             <v-img src="@/assets/guarantee.png" class="mb-4" contain width="120"></v-img>
-            <h1 class="display-1 font-weight-bold">Your Satisfaction, Guaranteed</h1>
+            <h1 class="display-1 font-weight-bold">Expert Services, Guaranteed Quality</h1>
             <p class="lead mt-4">
-              Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly customer service agents are available 12 hours a day, 7 days a week.
-            </p>
+              Experience top-tier services with our skilled professionals. We pride ourselves on delivering
+exceptional quality and reliability. With competitive pricing and a commitment to excellence, we
+ensure your needs are met with the highest standards. </p>
             <v-btn text class="white--text mt-5">Learn more</v-btn>
           </div>
         </v-col>
