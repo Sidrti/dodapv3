@@ -2,7 +2,7 @@
     <v-container class="py-5">
         <v-row align="center" justify="center" class="text-center my-5">
       <v-col cols="12">
-        <h3 class="display-2">How DO DAP Works</h3>
+        <h3 class="display-2">Quick & Easy: How DO DAP Works</h3>
       </v-col>
     </v-row>
       <v-row align="center" justify="center">
@@ -31,11 +31,10 @@
     data() {
       return {
         steps: [
-          { icon: 'mdi mdi-file-find-outline', description: 'Choose Your Service' ,color:'blue'},
-          { icon: 'mdi mdi-form-select', description: 'Fill Service Booking Form',color:'green' },
-          { icon: 'mdi mdi-face-agent', description: 'Our Agent will Contact You',color:'pink' },
-          { icon: 'mdi mdi-calendar-clock', description: 'Schedule Service Booking',color:'yellow' },
-          { icon: 'mdi mdi-check-circle-outline', description: 'Booking complete',color:'green'},
+          { icon: 'mdi mdi-file-find-outline', description: 'Choose & Submit' ,color:'blue'},
+          { icon: 'mdi mdi-face-agent', description: 'We Connect',color:'green' },
+          { icon: 'mdi mdi-face-agent', description: 'Schedule & Confirm',color:'pink' },
+          { icon: 'mdi mdi-check-circle-outline', description: 'Service Ready',color:'green'},
         ]
       };
     }

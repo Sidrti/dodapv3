@@ -1,14 +1,33 @@
 <template>
   <v-container fluid class="home-banner" fill-height>
     <div class="overlay"></div>
-    <v-row
-      align="center"
-      justify="center"
-      class="home-banner__content">
+    <v-row align="center" justify="center" class="home-banner__content">
       <v-col cols="12" class="text-center">
-        <h1 class="display-2 font-weight-bold mb-3">DO DAP</h1>
-        <h1 class="display-3 font-weight-bold mb-5 typewriter">{{ typewriterText }}</h1>
-      
+        <h1 class="display-1 font-weight-bold mb-3">DO DAP</h1>
+        <h1 class="headline-1 font-weight-bold mb-5 typewriter">{{ typewriterText }}</h1>
+      </v-col>
+      <v-col cols="12">
+        <v-autocomplete
+          :items="searchItems"
+          class="mx-auto"
+          density="comfortable"
+          menu-icon=""
+          placeholder="Search Services at DO DAP"
+          prepend-inner-icon="mdi-magnify"
+          style="max-width: 60%;"
+          theme="light"
+          variant="solo"
+          auto-select-first
+          item-props
+          rounded
+        ></v-autocomplete>
+      </v-col>
+      <v-col>
+        <div class="d-flex justify-center ga-2">
+          <v-chip color="primary" variant="flat">CCTV CAMERAS</v-chip>
+          <v-chip color="primary" variant="flat">SECURITY ALARMS</v-chip>
+          <v-chip color="primary" variant="flat">TECH SERVICES</v-chip>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -21,8 +40,39 @@ export default {
     return {
       fullText: 'Digital On-Demand Access Portal',
       typewriterText: '',
-      typingSpeed: 150 // Adjust typing speed as needed
-    }
+      typingSpeed: 150, // Adjust typing speed as needed
+      searchItems: [
+        {
+          prependIcon: 'mdi-clock-outline',
+          title: 'CCTV Camera',
+        },
+        {
+          prependIcon: 'mdi-clock-outline',
+          title: 'Security Alarms',
+        },
+        {
+          prependIcon: 'mdi-clock-outline',
+          title: 'Tech Services',
+        },
+      ],
+      shortcuts: [
+        {
+          icon: 'mdi-github',
+          title: 'CCTV CAMERAS',
+          href: 'https://github.com/vuetifyjs/vuetify',
+        },
+        {
+          icon: 'mdi-github',
+          title: 'SECURITY ALARMS',
+          href: 'https://github.com/vuetifyjs/vuetify/tree/dev',
+        },
+        {
+          icon: 'mdi-github',
+          title: 'TECH SERVICES',
+          href: 'https://github.com/vuetifyjs/vuetify/tree/v2-stable',
+        },
+      ],
+    };
   },
   mounted() {
     this.typeWriterEffect();
@@ -38,16 +88,15 @@ export default {
         }
       };
       type();
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
 .home-banner {
   position: relative;
   background-image: url('https://d1gkww9wcphr2z.cloudfront.net/backgrounds/kitchen.jpg'); /* Ensure the image file name matches */
-  /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
   background-size: cover;
   background-position: center;
   color: white;
@@ -71,12 +120,27 @@ export default {
   z-index: 1;
   padding: 20px;
 }
+.display-1 {
+    font-size: 4rem;
+  }
 
-.display-2 {
-  font-size: 100px;
+@media (max-width: 600px) {
+  .headline-1 {
+    font-size: 1.5rem;
+  }
 }
-.display-2 {
-  font-size: 90px;
+
+@media (min-width: 601px) and (max-width: 960px) {
+
+  .headline-1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 961px) {
+  .headline-1 {
+    font-size: 3rem;
+  }
 }
 
 .typewriter {
@@ -88,7 +152,8 @@ export default {
 }
 
 @keyframes blink-caret {
-  from, to {
+  from,
+  to {
     border-color: transparent;
   }
   50% {
