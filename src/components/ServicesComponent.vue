@@ -17,7 +17,9 @@
           <v-card-title class="headline">CCTV Cameras</v-card-title>
           <v-card-text>Secure your property with top-notch HD CCTV installations.</v-card-text>
           <v-card-actions>
-            <v-btn color="primary">Book Now</v-btn>
+            <router-link to="/CCTVCamera">
+              <v-btn color="primary">Book Now</v-btn>
+            </router-link>
           </v-card-actions>
         </v-card>
       </v-hover>
@@ -29,7 +31,9 @@
           <v-card-title class="headline">Security Alarms</v-card-title>
           <v-card-text>Stay protected with our advanced alarm systems and monitoring.</v-card-text>
           <v-card-actions>
-            <v-btn color="primary">Book Now</v-btn>
+            <router-link to="/CCTVCamera">
+              <v-btn color="primary">Book Now</v-btn>
+            </router-link>
           </v-card-actions>
         </v-card>
       </v-hover>
@@ -41,7 +45,9 @@
           <v-card-title class="headline">Tech Services</v-card-title>
           <v-card-text>Get expert tech solutions and seamless installations at your tips.</v-card-text>
           <v-card-actions>
-            <v-btn color="primary">Book Now</v-btn>
+            <router-link to="/CCTVCamera">
+              <v-btn color="primary">Book Now</v-btn>
+            </router-link>
           </v-card-actions>
         </v-card>
       </v-hover>

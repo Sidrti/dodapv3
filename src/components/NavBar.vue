@@ -1,6 +1,6 @@
 <template>
     <v-app-bar app color="dark" dark>
-      <v-toolbar-title>DODAP</v-toolbar-title>
+      <v-toolbar-title>DO DAP</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text to="/">Home</v-btn>
       <v-btn text to="/services">Services</v-btn>

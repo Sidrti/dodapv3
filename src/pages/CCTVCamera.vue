@@ -1,0 +1,3 @@
+<template>
+    <CCTVComponent></CCTVComponent>
+</template>

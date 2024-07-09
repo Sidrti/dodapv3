@@ -6,10 +6,14 @@
           <v-card-title class="headline">CCTV Technician</v-card-title>
           <v-card-text>Expert CCTV installation and support services.</v-card-text>
           <v-card-actions>
-            <v-btn color="primary">Learn More</v-btn>
+            <router-link to="/CCTVCamera">
+              <v-btn color="primary">Book Now</v-btn>
+            </router-link>
+
+          
           </v-card-actions>
         </v-card>
-      </v-hover>
+      </v-hover> 
     </v-col>
     <v-col cols="12" md="4">
       <v-hover v-slot:default="{ isHovering }">
