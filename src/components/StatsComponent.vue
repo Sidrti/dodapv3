@@ -9,22 +9,21 @@
       <v-row class="text-center mb-4">
         <v-col cols="12" md="4">
           <h3 class="display-4 font-weight-bold">1000+</h3>
-          <p class="subheading">Jobs Completed</p>
+          <p class="caption">Jobs Completed</p>
         </v-col>
         <v-col cols="12" md="4">
           <h3 class="display-4 font-weight-bold">99%</h3>
-          <p class="subheading">Customer Satisfaction</p>
+          <p class="caption">Customer Satisfaction</p>
         </v-col>
         <v-col cols="12" md="4">
           <h3 class="display-4 font-weight-bold">5★</h3>
-          <p class="subheading">Customer Support</p>
+          <p class="caption">Customer Support</p>
         </v-col>
       </v-row>
       <v-row class="text-center">
         <v-col cols="12">
-          <h4 class="lead-heading">Expert Security Solutions at Your Fingertips</h4>
-          <p class="lead">
-            Expert Security Solutions at Your Fingertips
+          <h4 class="headline mb-5">Expert Security Solutions at Your Fingertips</h4>
+          <p class="caption mt-5">
 We make securing your home or business effortless and reliable. We specialize in installing CCTV
 cameras, setting up monitored alarm systems, and providing low-voltage tech services. Our
 certified experts troubleshoot and handle all installation tasks, ensuring your surveillance and

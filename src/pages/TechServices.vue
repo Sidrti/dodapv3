@@ -1,0 +1,3 @@
+<template>
+    <TechServicesComponent></TechServicesComponent>
+</template>
