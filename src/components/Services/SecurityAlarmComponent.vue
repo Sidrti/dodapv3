@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>CCTV Camera</span>
+                                <span>Security Alarms</span>
                                 <div>
               <a href="mailto:info@dodap.ca">
                 <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -29,28 +29,17 @@
                                 </v-chip>
                                 <v-chip class="ma-2 text-white" color="#007bff" variant="flat" label>
                                     <v-icon icon="mdi-account-check" start class="text-white"></v-icon>
-                                    200 INSTALLATION
+                                    700 INSTALLATION
                                 </v-chip>
 
                             </v-card-subtitle>
                             <v-card-text class="text">
-                                <p class="mb-4 subheading">Enhance Your Security with Expertly Installed HD Cameras</p>
-                                Enhance your security with our comprehensive high-definition CCTV camera packages. Our
-                                cutting-edge cameras capture every detail with remarkable clarity, ensuring that nothing
-                                goes unnoticed. Whether you need to monitor your home, office, or any other property,
-                                our solutions are tailored to meet your specific needs.
+                                <p class="mb-4 subheading">Reliable Security Monitoring for Peace of Mind</p>
+                                To ensure the safety of your loved ones and protect your property, we provide comprehensive monitoring services tailored to meet your specific needs. Our advanced security solutions include both new installations and system upgrades, ensuring that your home or business remains secure and up-to-date with the latest technology.
+                                <br><br>
+                                Our comprehensive monitoring services offer round-the-clock surveillance and security for your home or business. Utilizing state-of-the-art technology, our monitoring solutions provide real-time alerts and instant notifications to keep you informed of any unusual activity. Whether you are at home, at work, or on vacation, you can rest assured knowing that our monitoring services are actively protecting your property.
 
-                                Our installation process is handled by expert technicians who bring years of experience
-                                and technical know-how to every project. They meticulously install each camera to
-                                maximize coverage and efficiency, ensuring that your security system operates at peak
-                                performance. We understand the importance of a smooth installation process, which is why
-                                we strive to complete our work with minimal disruption to your routine.
-
-                                We use premium-quality wiring to connect your cameras, ensuring a stable and reliable
-                                connection. High-quality wiring is essential for maintaining the integrity of your video
-                                feed, reducing the risk of signal interference, and ensuring that your system remains
-                                operational at all times. Trust our team to deliver a security solution that not only
-                                meets but exceeds your expectations.
+                             
 
                                 <v-divider class="my-4"></v-divider>
 
@@ -58,43 +47,26 @@
                                 <v-row>
                                     <v-col cols="12" md="6">
                                         <v-card class="pa-3" color="#F0F4FF">
-                                            <v-card-title class="headline text-card-color">4-Camera NVR Package</v-card-title>
+                                            <v-card-title class="headline text-card-color">Basic Monitoring</v-card-title>
 
                                             <v-list dense style="background-color: #F0F4FF;">
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 4MP Resolution</v-list-item-content>
+                                                    <v-list-item-content class="text-card-color"> Starting at $25.95/month + Tax</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Price Starting at
-                                                        $1650</v-list-item-content>
+                                                    <v-list-item-content class="text-card-color"> Requires Standard Line</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 10% Discount
-                                                        Available</v-list-item-content>
-                                                </v-list-item>
-                                            </v-list>
-
-                                        </v-card>
-                                    </v-col>
-                                    <v-col cols="12" md="6">
-                                        <v-card class="pa-3" color="#F0FFF4">
-                                            <v-card-title class="headline text-card-color">Customized Packages</v-card-title>
-                                            <v-list style="background-color: #F0FFF4" dense>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Tailored to your
-                                                        needs</v-list-item-content>
+                                                    <v-list-item-content class="text-card-color"> Heavy Discounts</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
@@ -102,11 +74,38 @@
                                                     </v-list-item-icon>
                                                     <v-list-item-content class="text-card-color"> Priority Support</v-list-item-content>
                                                 </v-list-item>
+                                            </v-list>
+
+                                        </v-card>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-card class="pa-3" color="#F0FFF4">
+                                            <v-card-title class="headline text-card-color">Cellular Monitoring</v-card-title>
+                                            <v-list style="background-color: #F0FFF4" dense>
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Additional Discounts
+                                                    <v-list-item-content class="text-card-color"> $39.95/month + Tax</v-list-item-content>
+                                                </v-list-item>
+                                                <v-list-item>
+                                                    <v-list-item-icon>
+                                                        <v-icon color="primary">mdi-check</v-icon>
+                                                    </v-list-item-icon>
+                                                    <v-list-item-content class="text-card-color"> Includes 2 doors & 1 motion sensor</v-list-item-content>
+                                                </v-list-item>
+                                                <v-list-item>
+                                                    <v-list-item-icon>
+                                                        <v-icon color="primary">mdi-check</v-icon>
+                                                    </v-list-item-icon>
+                                                    <v-list-item-content class="text-card-color"> Wireless connection and remote control
+                                                    </v-list-item-content>
+                                                </v-list-item>
+                                                <v-list-item>
+                                                    <v-list-item-icon>
+                                                        <v-icon color="primary">mdi-check</v-icon>
+                                                    </v-list-item-icon>
+                                                    <v-list-item-content class="text-card-color"> Integrates with smart devices such as doorbell etc
                                                     </v-list-item-content>
                                                 </v-list-item>
                                             </v-list>
@@ -128,7 +127,7 @@
             <!-- Left Section -->
             <v-col cols="12" md="6">
                 <div class="left-section">
-                    <div class="headline text-dark">Comprehensive CCTV Installation Services</div>
+                    <div class="headline text-dark">Comprehensive Security Alarm & Installation Services</div>
                     <div class="rating">
                         <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
                         <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
@@ -137,15 +136,11 @@
                         <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
                     </div>
                     <p class="text-dark caption">
-                        At DO DAP, we understand that every premises is unique and requires a specific CCTV installation
-                        solution to ensure maximum security. That’s why we offer a complimentary, no-obligation site
-                        survey to determine the vulnerable areas of your property.
+                        At DO DAP, we understand that every premises is unique and requires a specific security alarm solution to ensure maximum protection. That’s why we offer a complimentary, no-obligation site survey to determine the vulnerable areas of your property.
                     </p>
                     <br>
                     <p class="text-dark caption">
-                        At DO DAP, we understand that every premises is unique and requires a specific CCTV installation
-                        solution to ensure maximum security. That’s why we offer a complimentary, no-obligation site
-                        survey to determine the vulnerable areas of your property.
+                        Our expert team will assess your security needs and recommend the best alarm systems tailored to your specific requirements. Whether you need intrusion alarms, fire alarms, or integrated security systems, we ensure that every component is installed to provide the highest level of security. Trust us to safeguard your property with state-of-the-art security alarms that offer peace of mind.
                     </p>
                 </div>
             </v-col>
@@ -159,7 +154,7 @@
 
 <script>
 export default {
-    name: "CCTVComponent",
+    name: "SecurityAlarmComponent",
 };
 </script>
 
@@ -171,7 +166,7 @@ export default {
 
 .cctv-banner {
     position: relative;
-    background-image: url('https://clearview-communications.com/wp-content/uploads/2023/01/PTZ-CCTV-Camera.jpg');
+    background-image: url('https://clearview-communications.com/wp-content/uploads/2022/12/Intruder-Alarms-New.jpg');
     /* Example background image */
     background-size: cover;
     background-position: center;

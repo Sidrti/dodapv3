@@ -12,7 +12,7 @@
           class="mx-auto"
           density="comfortable"
           menu-icon=""
-          placeholder="Search Services on DO DAP"
+          placeholder="Search Services"
           prepend-inner-icon="mdi-magnify"
           style="max-width: 60%;"
           theme="light"
@@ -20,13 +20,14 @@
           auto-select-first
           item-props
           rounded
+          v-model="searchQuery"
         ></v-autocomplete>
       </v-col>
       <v-col>
         <div class="d-flex justify-center ga-2">
-          <v-chip color="primary" variant="flat">CCTV CAMERAS</v-chip>
-          <v-chip color="primary" variant="flat">SECURITY ALARMS</v-chip>
-          <v-chip color="primary" variant="flat">TECH SERVICES</v-chip>
+          <v-chip color="primary" variant="flat" to="CCTVCamera">CCTV CAMERAS</v-chip>
+          <v-chip color="primary" variant="flat" to="SecurityAlarm">SECURITY ALARMS</v-chip>
+          <v-chip color="primary" variant="flat" to="TechServices">TECH SERVICES</v-chip>
         </div>
       </v-col>
     </v-row>
@@ -38,6 +39,7 @@ export default {
   name: 'HomeBanner',
   data() {
     return {
+      searchQuery:null,
       fullText: 'Digital On-Demand Access Portal',
       typewriterText: '',
       typingSpeed: 150, // Adjust typing speed as needed
@@ -45,14 +47,17 @@ export default {
         {
           prependIcon: 'mdi-clock-outline',
           title: 'CCTV Camera',
+          route: '/CCTVCamera',
         },
         {
           prependIcon: 'mdi-clock-outline',
           title: 'Security Alarms',
+          route: '/SecurityAlarm',
         },
         {
           prependIcon: 'mdi-clock-outline',
           title: 'Tech Services',
+          route: '/TechServices',
         },
       ],
       shortcuts: [
@@ -89,7 +94,18 @@ export default {
       };
       type();
     },
+    onSearchEvt(item) {
+      if (item && item.route) {
+        this.$router.push(item.route);
+      }
+    }
   },
+  watch: {
+    searchQuery(val) {
+      const item = this.searchItems.find(item => item.title === val);
+      this.onSearchEvt(item)
+    }
+  }
 };
 </script>
 

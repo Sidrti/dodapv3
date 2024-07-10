@@ -1,0 +1,3 @@
+<template>
+    <SecurityAlarmComponent></SecurityAlarmComponent>
+</template>
