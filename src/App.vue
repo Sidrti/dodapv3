@@ -16,6 +16,10 @@
     font-size: 1.6rem !important;;
     font-weight: 350 !important;
   }
+  .headline-bold {
+    font-size: 2.1rem !important;;
+    font-weight: 500 !important;
+  }
   .subheading {
     font-size: 1.3rem !important;
     font-weight: 350 !important;
@@ -36,6 +40,10 @@
   .headline {
     font-size: 2.1rem !important;;
     font-weight: 350 !important;
+  }
+  .headline-bold {
+    font-size: 2.1rem !important;;
+    font-weight: 500 !important;
   }
   .subheading {
     font-size: 1.9rem !important;
