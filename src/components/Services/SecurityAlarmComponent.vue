@@ -35,11 +35,11 @@
                             </v-card-subtitle>
                             <v-card-text class="text">
                                 <p class="mb-4 subheading">Reliable Security Monitoring for Peace of Mind</p>
-                                To ensure the safety of your loved ones and protect your property, we provide comprehensive monitoring services tailored to meet your specific needs. Our advanced security solutions include both new installations and system upgrades, ensuring that your home or business remains secure and up-to-date with the latest technology.
+                                Ensure the safety of your loved ones and property with our comprehensive monitoring services.
+We offer new installations and upgrades for your security system.
                                 <br><br>
-                                Our comprehensive monitoring services offer round-the-clock surveillance and security for your home or business. Utilizing state-of-the-art technology, our monitoring solutions provide real-time alerts and instant notifications to keep you informed of any unusual activity. Whether you are at home, at work, or on vacation, you can rest assured knowing that our monitoring services are actively protecting your property.
-
-                             
+                                Cellular Monitoring Integrates with smart devices such as doorbell cameras, locks, thermostats,
+                                and more for remote monitoring and control.  
 
                                 <v-divider class="my-4"></v-divider>
 

@@ -35,23 +35,9 @@
                             </v-card-subtitle>
                             <v-card-text class="text">
                                 <p class="mb-4 subheading">Enhance Your Security with Expertly Installed HD Cameras</p>
-                                Enhance your security with our comprehensive high-definition CCTV camera packages. Our
-                                cutting-edge cameras capture every detail with remarkable clarity, ensuring that nothing
-                                goes unnoticed. Whether you need to monitor your home, office, or any other property,
-                                our solutions are tailored to meet your specific needs.
-
-                                Our installation process is handled by expert technicians who bring years of experience
-                                and technical know-how to every project. They meticulously install each camera to
-                                maximize coverage and efficiency, ensuring that your security system operates at peak
-                                performance. We understand the importance of a smooth installation process, which is why
-                                we strive to complete our work with minimal disruption to your routine.
-
-                                We use premium-quality wiring to connect your cameras, ensuring a stable and reliable
-                                connection. High-quality wiring is essential for maintaining the integrity of your video
-                                feed, reducing the risk of signal interference, and ensuring that your system remains
-                                operational at all times. Trust our team to deliver a security solution that not only
-                                meets but exceeds your expectations.
-
+                                Boost your security with our high-definition CCTV camera packages. Our expert technicians
+                                ensure seamless installation using high-quality wiring.
+                                <p class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!</p>
                                 <v-divider class="my-4"></v-divider>
 
                                 <h3 class="mb-3 subheading">Available Packages</h3>

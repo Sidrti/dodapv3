@@ -3,7 +3,7 @@
         <!-- First Container -->
     </v-container>
     <v-container class="overlapping-container">
-
+    
         <v-row>
             <v-col cols="12">
                 <v-row>
@@ -35,29 +35,16 @@
                             </v-card-subtitle>
                             <v-card-text class="text">
                                 <p class="mb-4 subheading">Expert Technicians for All Your Low-Voltage Needs</p>
-                                Our technicians are adept at installing a wide range of low-voltage systems, including
-                                security alarms, CCTV systems, network cabling, and home automation setups. From initial
-                                site assessments and planning to the final installation, our team ensures that every
-                                component is precisely installed to meet your specific needs. We use high-quality
-                                materials and the latest techniques to guarantee the longevity and reliability of your
-                                systems.
+                                Our efficient technicians are skilled in structured wiring and offer comprehensive solutions from
+installation to troubleshooting and training.
                                 <br> <br>
-                                Beyond installation, our team is also equipped to handle all aspects of troubleshooting
-                                and maintenance. Whether it's diagnosing a malfunctioning component, resolving
-                                connectivity issues, or performing routine maintenance, our technicians are trained to
-                                quickly and effectively address any problems that arise. This ensures that your systems
-                                remain operational and perform at their best at all times.
-                                <br><br>
-                                At DO DAP, quality and reliability are at the core of our services. Our technicians
-                                undergo rigorous training and certification processes to stay current with the latest
-                                industry standards and technologies. This commitment to excellence ensures that every
-                                project we undertake is completed to the highest quality standards, providing you with
-                                peace of mind and a robust, reliable system
+                                Additional hardware costs will be determined on-site.
 
-
+                              
                                 <v-divider class="my-4"></v-divider>
                                 <!-- 
                                 <h3 class="mb-3 subheading">Pricing</h3> -->
+                             
                                 <v-row>
                                     <v-col cols="12" md="5">
                                         <v-card class="pa-3" color="#F0F4FF">
@@ -173,14 +160,16 @@
                                         </v-row>
                                     </v-col>
                                 </v-row>
+                                <v-divider class="my-4"></v-divider>
+                                <StepsComponent></StepsComponent>
                             </v-card-text>
                         </v-card>
                     </v-col>
                 </v-row>
             </v-col>
         </v-row>
+      
     </v-container>
-
 
     <v-container>
         <v-row>

@@ -1,6 +1,6 @@
 <template>
 <v-card class="pa-4 bg-white">
-    <v-card-title class="headline mb-5">Book Free Consulation Call</v-card-title>
+    <v-card-title class="headline-bold mb-5">Book Consulation </v-card-title>
     <v-form>
         <v-row>
             <v-col cols="12" md="6">
