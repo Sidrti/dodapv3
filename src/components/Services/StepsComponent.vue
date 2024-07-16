@@ -6,7 +6,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="4" md="4" class="d-flex">
+        <v-col xs="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
           <v-avatar class="mr-3" color="black" size="40">
             <span class="white--text headline">1</span>
           </v-avatar>
@@ -15,7 +15,7 @@
             <p class="mb-0 text-sm">Tell us what you need done and select a date and time that works for you.</p>
           </div>
         </v-col>
-        <v-col cols="4" md="4" class="d-flex">
+        <v-col xs="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
           <v-avatar class="mr-3" color="black" size="40">
             <span class="white--text headline">2</span>
           </v-avatar>
@@ -24,7 +24,7 @@
             <p class="mb-0 text-sm">We will contact you to arrange a convenient date and time.</p>
           </div>
         </v-col>
-        <v-col cols="4" md="4" class="d-flex">
+        <v-col xs="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
           <v-avatar class="mr-3" color="black" size="40">
             <span class="white--text headline">3</span>
           </v-avatar>

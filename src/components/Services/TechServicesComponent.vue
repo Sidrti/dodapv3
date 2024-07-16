@@ -46,7 +46,7 @@ installation to troubleshooting and training.
                                 <h3 class="mb-3 subheading">Pricing</h3> -->
                              
                                 <v-row>
-                                    <v-col cols="5" >
+                                    <v-col  xs="12" sm="5" md="5" lg="5" xl="5">
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
@@ -84,7 +84,7 @@ installation to troubleshooting and training.
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="7">
+                                    <v-col xs="12" sm="7" md="7" lg="7" xl="7">
                                         <v-row>
                                             <v-col cols="6">
                                                 <v-card hover class="mx-auto" color="#F9F5E3">
