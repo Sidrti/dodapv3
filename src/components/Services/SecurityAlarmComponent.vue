@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Security Alarms</span>
+                                <span>Security: Monitoring Services</span>
                                 <div>
               <a href="mailto:info@dodap.ca">
                 <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -40,12 +40,16 @@ We offer new installations and upgrades for your security system.
                                 <br><br>
                                 Cellular Monitoring Integrates with smart devices such as doorbell cameras, locks, thermostats,
                                 and more for remote monitoring and control.  
+                                <div class="mb-4 mt-2">
+                                    <h3 class="font-weight-regular">Contact us today for a personalized quote! </h3>
+                                    <h3 class="font-weight-regular">We can help you secure your home, business or any other premises.</h3>
+                                </div>
 
                                 <v-divider class="my-4"></v-divider>
 
-                                <h3 class="mb-3 subheading">Available Packages</h3>
+                                <h3 class="mb-3 subheading">Monitoring Plans</h3>
                                 <v-row>
-                                    <v-col cols="12" md="6">
+                                    <v-col cols="6">
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Basic Monitoring</v-card-title>
 
@@ -63,22 +67,16 @@ We offer new installations and upgrades for your security system.
                                                     <v-list-item-content class="text-card-color"> Requires Standard Line</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Heavy Discounts</v-list-item-content>
+                                                
                                                 </v-list-item>
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Priority Support</v-list-item-content>
+                                              
                                                 </v-list-item>
                                             </v-list>
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="12" md="6">
+                                    <v-col cols="6">
                                         <v-card class="pa-3" color="#F0FFF4">
                                             <v-card-title class="headline text-card-color">Cellular Monitoring</v-card-title>
                                             <v-list style="background-color: #F0FFF4" dense>
@@ -105,7 +103,7 @@ We offer new installations and upgrades for your security system.
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Integrates with smart devices such as doorbell etc
+                                                    <v-list-item-content class="text-card-color"> Integrates with smart home devices
                                                     </v-list-item-content>
                                                 </v-list-item>
                                             </v-list>

@@ -10,15 +10,15 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>CCTV Camera</span>
+                                <span>CCTV Camera: Security Camera Packages</span>
                                 <div>
-              <a href="mailto:info@dodap.ca">
-                <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
-              </a>
-              <a href="tel:+16476073829">
-                <v-btn color="green" icon="mdi-phone" outlined></v-btn>
-              </a>
-            </div>
+                                    <a href="mailto:info@dodap.ca">
+                                        <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
+                                    </a>
+                                    <a href="tel:+16476073829">
+                                        <v-btn color="green" icon="mdi-phone" outlined></v-btn>
+                                    </a>
+                                </div>
 
                             </v-card-title>
                             <v-card-subtitle>
@@ -35,23 +35,26 @@
                             </v-card-subtitle>
                             <v-card-text class="text">
                                 <p class="mb-4 subheading">Enhance Your Security with Expertly Installed HD Cameras</p>
-                                Boost your security with our high-definition CCTV camera packages. Our expert technicians
+                                Boost your security with our high-definition CCTV camera packages. Our expert
+                                technicians
                                 ensure seamless installation using high-quality wiring.
-                                <p class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!</p>
+                                <h3 class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!</h3>
                                 <v-divider class="my-4"></v-divider>
 
                                 <h3 class="mb-3 subheading">Available Packages</h3>
                                 <v-row>
-                                    <v-col cols="12" md="6">
+                                    <v-col cols="6">
                                         <v-card class="pa-3" color="#F0F4FF">
-                                            <v-card-title class="headline text-card-color">4-Camera NVR Package</v-card-title>
+                                            <v-card-title class="headline text-card-color">4-Camera NVR
+                                                Package</v-card-title>
 
                                             <v-list dense style="background-color: #F0F4FF;">
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 4MP Resolution</v-list-item-content>
+                                                    <v-list-item-content class="text-card-color"> 4MP
+                                                        Resolution</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
@@ -71,9 +74,10 @@
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="12" md="6">
+                                    <v-col cols="6">
                                         <v-card class="pa-3" color="#F0FFF4">
-                                            <v-card-title class="headline text-card-color">Customized Packages</v-card-title>
+                                            <v-card-title class="headline text-card-color">Customized
+                                                Packages</v-card-title>
                                             <v-list style="background-color: #F0FFF4" dense>
                                                 <v-list-item>
                                                     <v-list-item-icon>
@@ -82,18 +86,16 @@
                                                     <v-list-item-content class="text-card-color"> Tailored to your
                                                         needs</v-list-item-content>
                                                 </v-list-item>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Priority Support</v-list-item-content>
-                                                </v-list-item>
+                                             
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
                                                     <v-list-item-content class="text-card-color"> Additional Discounts
                                                     </v-list-item-content>
+                                                </v-list-item>
+                                                <v-list-item>
+                                                  
                                                 </v-list-item>
                                             </v-list>
 
@@ -128,11 +130,7 @@
                         survey to determine the vulnerable areas of your property.
                     </p>
                     <br>
-                    <p class="text-dark caption">
-                        At DO DAP, we understand that every premises is unique and requires a specific CCTV installation
-                        solution to ensure maximum security. That’s why we offer a complimentary, no-obligation site
-                        survey to determine the vulnerable areas of your property.
-                    </p>
+
                 </div>
             </v-col>
             <!-- Right Section -->
@@ -149,7 +147,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .my-5 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -172,26 +170,28 @@ export default {
 }
 
 .left-section {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .rating {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
 }
 
 .rating span {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .rating v-icon {
-  margin: 0 0.2rem;
+    margin: 0 0.2rem;
 }
+
 .text-dark {
     color: black;
 }
+
 .text-card-color {
-    color:#333333
+    color: #333333
 }
 </style>
