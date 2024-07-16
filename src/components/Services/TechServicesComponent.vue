@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Tech Services</span>
+                                <span>Tech Services: Professional Low Volatage Services</span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
                                         <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -46,7 +46,7 @@ installation to troubleshooting and training.
                                 <h3 class="mb-3 subheading">Pricing</h3> -->
                              
                                 <v-row>
-                                    <v-col cols="12" md="5">
+                                    <v-col cols="5" >
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
@@ -62,28 +62,29 @@ installation to troubleshooting and training.
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Additional 10%
-                                                        discount</v-list-item-content>
+                                                    <v-list-item-content class="text-card-color"> 10%
+                                                        discount upon signing up</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Minimum Requirment for
+                                                    <v-list-item-content class="text-card-color"> Minimum Requirment: 
                                                         2 hours</v-list-item-content>
                                                 </v-list-item>
                                                 <v-list-item>
                                                     <v-list-item-icon>
                                                         <v-icon color="primary">mdi-check</v-icon>
                                                     </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Discount rates apply
+                                                    <v-list-item-content class="text-card-color"> Discounted rates apply
                                                         after the minimum hours</v-list-item-content>
                                                 </v-list-item>
+                                                <v-list-item></v-list-item>
                                             </v-list>
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="6" md="7">
+                                    <v-col cols="7">
                                         <v-row>
                                             <v-col cols="6">
                                                 <v-card hover class="mx-auto" color="#F9F5E3">
@@ -93,14 +94,13 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="caption mb-0">
+                                                            <v-card-title class="text mb-0">
                                                                 Fully Accredited
                                                             </v-card-title>
                                                         </v-col>
                                                     </v-row>
-                                                    <v-card-text class="text-sm">Our tech services are fully accredited
-                                                        to ensure the highest standards of quality and
-                                                        reliability.</v-card-text>
+                                                    <v-card-text class="text-sm">Our tech services are fully accredited to ensure the highest standards of
+                                                    quality and reliability.</v-card-text>
                                                 </v-card>
                                             </v-col>
                                             <v-col cols="6">
@@ -111,13 +111,13 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="caption mb-0">
+                                                            <v-card-title class="text mb-0">
                                                                 Experienced
                                                             </v-card-title>
                                                         </v-col>
                                                     </v-row>
-                                                    <v-card-text class="text-sm">Our team is highly experienced, bringing years of
-                                                        expertise to deliver exceptional tech services.</v-card-text>
+                                                    <v-card-text class="text-sm">Our team is highly experienced, bringing years of expertise to deliver exceptional
+                                                        tech services.</v-card-text>
                                                 </v-card>
                                             </v-col>
                                         </v-row>
@@ -130,14 +130,13 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="caption mb-0">
-                                                                Innovative Solutions
+                                                            <v-card-title class="text mb-0">
+                                                                Innovative Approach
                                                             </v-card-title>
                                                         </v-col>
                                                     </v-row>
-                                                    <v-card-text class="text-sm">We offer cutting-edge tech services to keep your
-                                                        business ahead of the curve, leveraging the latest
-                                                        advancements.</v-card-text>
+                                                    <v-card-text class="text-sm">Our techs think outside the box to efficiently and promptly install and
+                                                        resolve your issues.</v-card-text>
                                                 </v-card>
                                             </v-col>
                                             <v-col cols="6">
@@ -148,13 +147,13 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="caption mb-0">
+                                                            <v-card-title class="text mb-0">
                                                                 Unmatched Expertise
                                                             </v-card-title>
                                                         </v-col>
                                                     </v-row>
-                                                    <v-card-text class="text-sm">Our dedicated team provides unparalleled tech services,
-                                                        ensuring your business operates smoothly.</v-card-text>
+                                                    <v-card-text class="text-sm">Our friendly, dedicated techs ensure smooth and stress-free services for
+                                                        your home or business.</v-card-text>
                                                 </v-card>
                                             </v-col>
                                         </v-row>
@@ -191,13 +190,7 @@ installation to troubleshooting and training.
                         areas for improvement.
                     </p>
                     <br>
-                    <p class="text-dark caption">
-                        Our expert team will assess your IT infrastructure and recommend the best tech services tailored
-                        to your specific requirements. Whether you need network setup, cybersecurity enhancements, cloud
-                        solutions, or comprehensive IT support, we ensure that every component is implemented to provide
-                        the highest level of performance and security. Trust us to optimize your technology with
-                        state-of-the-art solutions that offer peace of mind and help your business thrive.
-                    </p>
+ 
                 </div>
             </v-col>
             <!-- Right Section -->
