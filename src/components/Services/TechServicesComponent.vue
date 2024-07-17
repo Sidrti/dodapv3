@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Tech Services: Professional Low Volatage Services</span>
+                                <span>Tech Services: Professional Low Voltage Services</span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
                                         <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
