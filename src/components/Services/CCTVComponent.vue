@@ -41,10 +41,10 @@
                                 <h3 class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!</h3>
                                 <v-divider class="my-4"></v-divider>
 
-                                <h3 class="mb-3 subheading">Available Packages</h3>
+                                <h3 class="mb-3 subheading">Packages</h3>
                                 <v-row>
-                                    <v-col cols="6">
-                                        <v-card class="pa-3" color="#F0F4FF">
+                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                        <v-card class="pa-3 card-equal-height" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">4-Camera NVR
                                                 Package</v-card-title>
 
@@ -74,8 +74,8 @@
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="6">
-                                        <v-card class="pa-3" color="#F0FFF4">
+                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                        <v-card class="pa-3 card-equal-height" color="#F0FFF4">
                                             <v-card-title class="headline text-card-color">Customized
                                                 Packages</v-card-title>
                                             <v-list style="background-color: #F0FFF4" dense>
@@ -114,7 +114,7 @@
     <v-container>
         <v-row>
             <!-- Left Section -->
-            <v-col cols="12" md="6">
+            <!-- <v-col cols="12" md="6">
                 <div class="left-section">
                     <div class="headline text-dark">Comprehensive CCTV Installation Services</div>
                     <div class="rating">
@@ -132,7 +132,7 @@
                     <br>
 
                 </div>
-            </v-col>
+            </v-col> -->
             <!-- Right Section -->
             <v-col cols="12" md="6">
                 <BookingFormComponent></BookingFormComponent>
@@ -193,5 +193,11 @@ export default {
 
 .text-card-color {
     color: #333333
+}
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 </style>

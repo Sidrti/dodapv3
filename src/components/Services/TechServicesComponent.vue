@@ -46,7 +46,7 @@ installation to troubleshooting and training.
                                 <h3 class="mb-3 subheading">Pricing</h3> -->
                              
                                 <v-row>
-                                    <v-col  xs="12" sm="5" md="5" lg="5" xl="5">
+                                    <v-col xs="12" sm="5" md="5" lg="5" xl="5">
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
@@ -87,7 +87,7 @@ installation to troubleshooting and training.
                                     <v-col xs="12" sm="7" md="7" lg="7" xl="7">
                                         <v-row>
                                             <v-col cols="6">
-                                                <v-card hover class="mx-auto" color="#F9F5E3">
+                                                <v-card hover class="mx-auto card-equal-height" color="#F9F5E3">
                                                     <v-row no-gutters align="center">
                                                         <v-col cols="auto">
                                                             <v-icon class="mdi mdi-certificate ml-2" size="35"
@@ -104,7 +104,7 @@ installation to troubleshooting and training.
                                                 </v-card>
                                             </v-col>
                                             <v-col cols="6">
-                                                <v-card hover class="mx-auto" color="#F5F0FF">
+                                                <v-card hover class="mx-auto card-equal-height" color="#F5F0FF">
                                                     <v-row no-gutters align="center">
                                                         <v-col cols="auto">
                                                             <v-icon class="mdi mdi-account-tie ml-2" size="35"
@@ -123,7 +123,7 @@ installation to troubleshooting and training.
                                         </v-row>
                                         <v-row>
                                             <v-col cols="6">
-                                                <v-card hover class="mx-auto" color="#F0FFF4">
+                                                <v-card hover class="mx-auto card-equal-height" color="#F0FFF4">
                                                     <v-row no-gutters align="center">
                                                         <v-col cols="auto">
                                                             <v-icon class="mdi mdi-lightbulb-on-outline ml-2" size="35"
@@ -140,7 +140,7 @@ installation to troubleshooting and training.
                                                 </v-card>
                                             </v-col>
                                             <v-col cols="6">
-                                                <v-card hover class="mx-auto" color="#F3FFFF">
+                                                <v-card hover class="mx-auto card-equal-height" color="#F3FFFF">
                                                     <v-row no-gutters align="center">
                                                         <v-col cols="auto">
                                                             <v-icon class="mdi mdi-school ml-2" size="35"
@@ -173,7 +173,7 @@ installation to troubleshooting and training.
     <v-container>
         <v-row>
             <!-- Left Section -->
-            <v-col cols="12" md="6">
+            <!-- <v-col cols="12" md="6">
                 <div class="left-section">
                     <div class="headline text-dark">Tech Services: Professional Low-Voltage Solutions</div>
                     <div class="rating">
@@ -192,7 +192,7 @@ installation to troubleshooting and training.
                     <br>
  
                 </div>
-            </v-col>
+            </v-col> -->
             <!-- Right Section -->
             <v-col cols="12" md="6">
                 <BookingFormComponent></BookingFormComponent>
@@ -245,5 +245,11 @@ export default {
 
 .rating v-icon {
     margin: 0 0.2rem;
+}
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 </style>

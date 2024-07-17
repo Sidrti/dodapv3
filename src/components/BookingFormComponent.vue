@@ -12,13 +12,20 @@
         </v-row>
         <v-row>
             <v-col cols="12">
-                <v-text-field label="Email" variant="outlined" hint="alexsmith@example.com"></v-text-field>
+                <v-text-field label="Email" variant="outlined" hint="alex@example.com"></v-text-field>
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="12">
-                <v-text-field label="Phone number" variant="outlined"
-                    hint="(647) 555-1234"></v-text-field>
+                <!-- <v-text-field label="Phone number" variant="outlined"
+                    hint="(647) 555-1234"></v-text-field> -->
+
+                    <v-text-field
+          label="Phone number"
+          variant="outlined"
+          hint="(647) 555-1234"
+          v-mask="'(###) ###-####'"
+        ></v-text-field>
             </v-col>
         </v-row>
         <v-btn color="primary" class="mt-4">Book Now</v-btn>
@@ -56,3 +63,6 @@
     </v-card-text> -->
 </v-card>
 </template>
+<script>
+
+</script>

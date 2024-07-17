@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Security: Monitoring Services</span>
+                                <span>Security Alarms: Monitoring Services</span>
                                 <div>
               <a href="mailto:info@dodap.ca">
                 <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -35,11 +35,10 @@
                             </v-card-subtitle>
                             <v-card-text class="text">
                                 <p class="mb-4 subheading">Reliable Security Monitoring for Peace of Mind</p>
-                                Ensure the safety of your loved ones and property with our comprehensive monitoring services.
-We offer new installations and upgrades for your security system.
-                                <br><br>
-                                Cellular Monitoring Integrates with smart devices such as doorbell cameras, locks, thermostats,
-                                and more for remote monitoring and control.  
+                
+                                Ensure the safety of your loved ones and property with our full range of security solutions. We
+offer new installations and upgrades for your current security system, and we will connect you
+with a trusted monitoring provider. 
                                 <div class="mb-4 mt-2">
                                     <h3 class="font-weight-regular">Contact us today for a personalized quote! </h3>
                                     <h3 class="font-weight-regular">We can help you secure your home, business or any other premises.</h3>
@@ -49,8 +48,8 @@ We offer new installations and upgrades for your security system.
 
                                 <h3 class="mb-3 subheading">Monitoring Plans</h3>
                                 <v-row>
-                                    <v-col cols="6">
-                                        <v-card class="pa-3" color="#F0F4FF">
+                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                        <v-card class="pa-3 card-equal-height" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Basic Monitoring</v-card-title>
 
                                             <v-list dense style="background-color: #F0F4FF;">
@@ -76,8 +75,8 @@ We offer new installations and upgrades for your security system.
 
                                         </v-card>
                                     </v-col>
-                                    <v-col cols="6">
-                                        <v-card class="pa-3" color="#F0FFF4">
+                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                        <v-card class="pa-3 card-equal-height" color="#F0FFF4">
                                             <v-card-title class="headline text-card-color">Cellular Monitoring</v-card-title>
                                             <v-list style="background-color: #F0FFF4" dense>
                                                 <v-list-item>
@@ -123,7 +122,7 @@ We offer new installations and upgrades for your security system.
     <v-container>
         <v-row>
             <!-- Left Section -->
-            <v-col cols="12" md="6">
+            <!-- <v-col cols="12" md="6">
                 <div class="left-section">
                     <div class="headline text-dark">Comprehensive Security Alarm & Installation Services</div>
                     <div class="rating">
@@ -141,7 +140,7 @@ We offer new installations and upgrades for your security system.
                         Our expert team will assess your security needs and recommend the best alarm systems tailored to your specific requirements. Whether you need intrusion alarms, fire alarms, or integrated security systems, we ensure that every component is installed to provide the highest level of security. Trust us to safeguard your property with state-of-the-art security alarms that offer peace of mind.
                     </p>
                 </div>
-            </v-col>
+            </v-col> -->
             <!-- Right Section -->
             <v-col cols="12" md="6">
                 <BookingFormComponent></BookingFormComponent>
@@ -200,5 +199,11 @@ export default {
 }
 .text-card-color {
     color:#333333
+}
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 </style>
