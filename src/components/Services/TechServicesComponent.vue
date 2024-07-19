@@ -147,8 +147,8 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="text mb-0 white-space-preserve">
-                                                                Unmatched Expertise
+                                                            <v-card-title class="text mb-0">
+                                                                Unmatched Support
                                                             </v-card-title>
                                                         </v-col>
                                                     </v-row>

@@ -12,7 +12,7 @@
           </v-avatar>
           <div>
             <p class="font-weight-medium">Submit Your Job Request</p>
-            <p class="mb-0 text-sm">Tell us what you need done and select a date and time that works for you.</p>
+            <p class="mb-0 text-sm">Tell us what you need done.</p>
           </div>
         </v-col>
         <v-col xs="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
