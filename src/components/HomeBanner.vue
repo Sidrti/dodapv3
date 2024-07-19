@@ -112,7 +112,7 @@ export default {
 <style scoped>
 .home-banner {
   position: relative;
-  background-image: url('https://d1gkww9wcphr2z.cloudfront.net/backgrounds/kitchen.jpg'); /* Ensure the image file name matches */
+  background-image: url('@/assets/home-banner.jpg');; /* Ensure the image file name matches */
   background-size: cover;
   background-position: center;
   color: white;

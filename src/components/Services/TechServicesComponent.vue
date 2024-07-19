@@ -94,7 +94,7 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="text mb-0">
+                                                            <v-card-title class="text mb-0 white-space-preserve">
                                                                 Fully Accredited
                                                             </v-card-title>
                                                         </v-col>
@@ -111,7 +111,7 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="text mb-0">
+                                                            <v-card-title class="text mb-0 white-space-preserve">
                                                                 Experienced
                                                             </v-card-title>
                                                         </v-col>
@@ -130,7 +130,7 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="text mb-0">
+                                                            <v-card-title class="text mb-0 white-space-preserve">
                                                                 Innovative Approach
                                                             </v-card-title>
                                                         </v-col>
@@ -147,7 +147,7 @@ installation to troubleshooting and training.
                                                                 color="black"></v-icon>
                                                         </v-col>
                                                         <v-col>
-                                                            <v-card-title class="text mb-0">
+                                                            <v-card-title class="text mb-0 white-space-preserve">
                                                                 Unmatched Expertise
                                                             </v-card-title>
                                                         </v-col>
@@ -170,7 +170,7 @@ installation to troubleshooting and training.
       
     </v-container>
 
-    <v-container>
+    <v-container class="overlapping-container">
         <v-row>
             <!-- Left Section -->
             <!-- <v-col cols="12" md="6">
@@ -251,5 +251,8 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+.white-space-preserve {
+    white-space: preserve-breaks !important;
 }
 </style>

@@ -9,7 +9,7 @@
                 <v-row>
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
-                            <v-card-title class="headline d-flex justify-space-between align-center">
+                            <v-card-title class="headline text-break d-flex justify-space-between align-center">
                                 <span>CCTV Camera: Security Camera Packages</span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
@@ -111,7 +111,7 @@
     </v-container>
 
 
-    <v-container>
+    <v-container class="overlapping-container">
         <v-row>
             <!-- Left Section -->
             <!-- <v-col cols="12" md="6">
@@ -167,6 +167,9 @@ export default {
     top: -5%;
     /* Move the container up by 25% of its own height */
     z-index: 1;
+}
+.margin-top-negative {
+    top: -5%;
 }
 
 .left-section {
