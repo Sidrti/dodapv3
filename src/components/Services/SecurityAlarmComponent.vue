@@ -119,7 +119,7 @@ with a trusted monitoring provider.
     </v-container>
 
 
-    <v-container>
+    <v-container class="overlapping-container">
         <v-row>
             <!-- Left Section -->
             <!-- <v-col cols="12" md="6">

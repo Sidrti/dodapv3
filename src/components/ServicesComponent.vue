@@ -3,9 +3,7 @@
 <v-card color="#f0f0f0" class="mb-5">
     <v-container fluid>
         <v-row align="center" justify="center" class="text-center my-5">
-      <v-col cols="12">
-        <h1 class="headline">Services</h1>
-      </v-col>
+          <p class="text-h4">Services</p>
     </v-row>
     <v-row>
         <v-col cols="12" md="4">
@@ -62,5 +60,14 @@ export default {
 </script>
 
 <style scoped>
-/* Add any custom styles for the navbar here */
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
 </style>
