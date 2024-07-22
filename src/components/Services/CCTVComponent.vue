@@ -43,7 +43,7 @@
 
                                 <h3 class="mb-3 subheading">Packages</h3>
                                 <v-row>
-                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
                                         <v-card class="pa-3 card-equal-height" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">4-Camera NVR
                                                 Package</v-card-title>
@@ -74,7 +74,7 @@
 
                                         </v-card>
                                     </v-col>
-                                    <v-col xs="12" sm="6" md="6" lg="6" xl="6">
+                                    <v-col cols="12" sm="12" md="6" lg="6" xl="6">
                                         <v-card class="pa-3 card-equal-height" color="#F0FFF4">
                                             <v-card-title class="headline text-card-color">Customized
                                                 Packages</v-card-title>
@@ -155,7 +155,7 @@ export default {
 
 .cctv-banner {
     position: relative;
-    background-image: url('https://clearview-communications.com/wp-content/uploads/2023/01/PTZ-CCTV-Camera.jpg');
+    background-image: url('@/assets/home-banner.jpg');
     /* Example background image */
     background-size: cover;
     background-position: center;
