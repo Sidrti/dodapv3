@@ -155,7 +155,7 @@ export default {
 
 .cctv-banner {
     position: relative;
-    background-image: url('@/assets/home-banner.jpg');
+    background-image: url('@/assets/cam-banner.jpg');
     /* Example background image */
     background-size: cover;
     background-position: center;

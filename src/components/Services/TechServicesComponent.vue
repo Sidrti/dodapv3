@@ -79,7 +79,7 @@ installation to troubleshooting and training.
                                                     <v-list-item-content class="text-card-color"> Discounted rates apply
                                                         after the minimum hours</v-list-item-content>
                                                 </v-list-item>
-                                                <v-list-item></v-list-item>
+                                             
                                             </v-list>
 
                                         </v-card>
