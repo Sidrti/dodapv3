@@ -8,7 +8,7 @@
     <v-row>
         <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
-          <v-img src="@/assets/cctv.jpg" height="200px" cover></v-img>
+          <v-img src="@/assets/cam-service.jpg" height="200px" cover></v-img>
           <v-card-title class="headline">CCTV Cameras</v-card-title>
           <v-card-text class="text">Secure your property with top-notch HD CCTV installations.</v-card-text>
           <v-card-actions>
@@ -20,7 +20,7 @@
     </v-col>
     <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
-          <v-img src="@/assets/alarm.jpg" height="200px" cover></v-img>
+          <v-img src="@/assets/alarm-service.jpg" height="200px" cover></v-img>
           <v-card-title class="headline">Security Alarms</v-card-title>
           <v-card-text class="text" >Stay protected with our alarm systems and monitoring.</v-card-text>
           <v-card-actions>
@@ -32,7 +32,7 @@
     </v-col>
     <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
-          <v-img src="@/assets/cctv.jpg" height="200px" cover></v-img>
+          <v-img src="@/assets/tech-service.jpg" height="200px" cover></v-img>
           <v-card-title class="headline">Tech Services</v-card-title>
           <v-card-text class="text">Get expert tech solutions and seamless installations.</v-card-text>
           <v-card-actions>

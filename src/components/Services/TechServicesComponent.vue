@@ -46,7 +46,7 @@ installation to troubleshooting and training.
                                 <h3 class="mb-3 subheading">Pricing</h3> -->
                              
                                 <v-row>
-                                    <v-col xs="12" sm="5" md="5" lg="5" xl="5">
+                                    <v-col cols="12" sm="5" md="5" lg="5" xl="5">
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
@@ -84,7 +84,7 @@ installation to troubleshooting and training.
 
                                         </v-card>
                                     </v-col>
-                                    <v-col xs="12" sm="7" md="7" lg="7" xl="7">
+                                    <v-col cols="12" sm="7" md="7" lg="7" xl="7">
                                         <v-row>
                                             <v-col cols="6">
                                                 <v-card hover class="mx-auto card-equal-height" color="#F9F5E3">
@@ -215,7 +215,7 @@ export default {
 
 .cctv-banner {
     position: relative;
-    background-image: url('https://clearview-communications.com/wp-content/uploads/2022/12/Intruder-Alarms-New.jpg');
+    background-image: url('@/assets/tech-banner.jpg');
     /* Example background image */
     background-size: cover;
     background-position: center;
