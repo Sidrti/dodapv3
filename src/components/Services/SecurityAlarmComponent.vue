@@ -163,7 +163,7 @@ export default {
 
 .cctv-banner {
     position: relative;
-    background-image: url('https://clearview-communications.com/wp-content/uploads/2022/12/Intruder-Alarms-New.jpg');
+    background-image: url('@/assets/alarm-banner.jpg');
     /* Example background image */
     background-size: cover;
     background-position: center;
