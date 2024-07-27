@@ -156,10 +156,21 @@ export default {
 .cctv-banner {
     position: relative;
     background-image: url('@/assets/cam-banner.jpg');
-    /* Example background image */
     background-size: cover;
     background-position: center;
     height: 500px;
+}
+
+@media (max-width: 768px) {
+    .cctv-banner {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cctv-banner {
+        height: 200px;
+    }
 }
 
 .overlapping-container {
