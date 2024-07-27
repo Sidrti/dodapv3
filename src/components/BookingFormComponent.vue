@@ -24,6 +24,22 @@
         <v-btn type="submit" color="primary" class="mt-4" :loading="formData.loading">Book Now</v-btn>
       </v-form>
     </v-card>
+
+    <v-dialog v-model="dialog" max-width="500px" variant="flat">
+      <v-card class="bg-white">
+        <v-card-title class="headline">Submission Successful</v-card-title>
+        <v-card-text>
+          <v-container class="text-center">
+            <v-icon color="green" size="64">mdi-check-circle</v-icon>
+          </v-container>
+          <p class="text-center">Your consultation request has been submitted successfully.</p>
+          <p class="text-center">Our team will contact you shortly.</p>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn color="primary" text @click="dialog = false">OK</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
 
@@ -35,13 +51,14 @@ export default {
   data() {
     return {
       formData: {
-        loading:false,
+        loading: false,
         firstName: '',
         lastName: '',
         email: '',
         phoneNumber: '',
-        route:this.$route.path
-      }
+        route: this.$route.path
+      },
+      dialog: false
     };
   },
   methods: {
@@ -50,15 +67,15 @@ export default {
         this.formData.loading = true;
         const response = await axios.post('https://api.dodap.ca/api/v2/send-mail', this.formData);
         this.formData.loading = false;
-        this.formData.firstName='';
-        this.formData.lastName='';
+        this.formData.firstName = '';
+        this.formData.lastName = '';
         this.formData.email = '';
         this.formData.phoneNumber = '';
         console.log('Form submitted successfully:', response.data);
-        // Handle success (e.g., show a success message, clear the form, etc.)
+        this.dialog = true;
       } catch (error) {
         console.error('Error submitting form:', error);
-        // Handle error (e.g., show an error message)
+        this.formData.loading = false;
       }
     }
   }
