@@ -12,7 +12,7 @@
           </v-avatar>
           <div>
             <p class="font-weight-medium">Submit Your Job Request</p>
-            <p class="mb-0 text-sm">Tell us what you need done.</p>
+            <p class="mb-0 text-sm">Let us know what service you need.</p>
           </div>
         </v-col>
         <v-col cols="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
@@ -21,7 +21,7 @@
           </v-avatar>
           <div>
             <p class="font-weight-medium">Schedule Your Appointment</p>
-            <p class="mb-0 text-sm">We will contact you to arrange a convenient date and time.</p>
+            <p class="mb-0 text-sm">We’ll contact you to arrange a convenient date and time. </p>
           </div>
         </v-col>
         <v-col cols="12" sm="12" md="4" lg="4" xl="4" class="d-flex">
@@ -30,7 +30,7 @@
           </v-avatar>
           <div>
             <p class="font-weight-medium">Match with a Technician</p>
-            <p class="mb-0 text-sm">An expert technician will be assigned to your job.</p>
+            <p class="mb-0 text-sm">A certified expert will be assigned to complete your job.</p>
           </div>
         </v-col>
       </v-row>

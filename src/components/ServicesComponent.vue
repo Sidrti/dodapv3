@@ -9,8 +9,8 @@
         <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/cam-service.jpg" height="200px" cover></v-img>
-          <v-card-title class="headline">CCTV Cameras</v-card-title>
-          <v-card-text class="text">Secure your property with top-notch HD CCTV installations.</v-card-text>
+          <v-card-title class="headline">Camera Installations</v-card-title>
+          <v-card-text class="text">Protect your property with professional, high-quality security camera installations.</v-card-text>
           <v-card-actions>
             <router-link to="/CCTVCamera">
               <v-btn color="primary">Book Now</v-btn>
@@ -21,8 +21,8 @@
     <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/alarm-service.jpg" height="200px" cover></v-img>
-          <v-card-title class="headline">Security Alarms</v-card-title>
-          <v-card-text class="text" >Stay protected with our alarm systems and monitoring.</v-card-text>
+          <v-card-title class="headline">Alarm System Installations</v-card-title>
+          <v-card-text class="text" >Ensure peace of mind with expertly installed and monitored alarm systems.</v-card-text>
           <v-card-actions>
             <router-link to="/SecurityAlarm">
               <v-btn color="primary">Book Now</v-btn>
@@ -33,8 +33,8 @@
     <v-col cols="12" md="4">
         <v-card hover class="service-card" variant="elevated" color="white">
           <v-img src="@/assets/tech-service.jpg" height="200px" cover></v-img>
-          <v-card-title class="headline">Tech Services</v-card-title>
-          <v-card-text class="text">Get expert tech solutions and seamless installations.</v-card-text>
+          <v-card-title class="headline">Certified Technicians</v-card-title>
+          <v-card-text class="text">Our certified technicians provide reliable, efficient installations tailored to your needs.</v-card-text>
           <v-card-actions>
             <router-link to="/TechServices">
               <v-btn color="primary">Book Now</v-btn>

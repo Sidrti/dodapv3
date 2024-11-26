@@ -10,15 +10,15 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Security Alarms: Monitoring Services</span>
+                                <span>Alarm System Installations </span>
                                 <div>
-              <a href="mailto:info@dodap.ca">
-                <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
-              </a>
-              <a href="tel:+16476073829">
-                <v-btn color="green" icon="mdi-phone" outlined></v-btn>
-              </a>
-            </div>
+                                    <a href="mailto:info@dodap.ca">
+                                        <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
+                                    </a>
+                                    <a href="tel:+16476073829">
+                                        <v-btn color="green" icon="mdi-phone" outlined></v-btn>
+                                    </a>
+                                </div>
 
                             </v-card-title>
                             <v-card-subtitle>
@@ -34,14 +34,17 @@
 
                             </v-card-subtitle>
                             <v-card-text class="text">
-                                <p class="mb-4 subheading">Reliable Security Monitoring for Peace of Mind</p>
-                
-                                Ensure the safety of your loved ones and property with our full range of security solutions. We
-offer new installations and upgrades for your current security system, and we will connect you
-with a trusted monitoring provider. 
+                                <p class="mb-4 subheading">Reliable Alarm System Installations for Peace of Mind </p>
+
+                                Protect your home or business with expertly installed alarm systems. Whether you need
+                                new
+                                installations or upgrades to your existing system, our certified technicians ensure your
+                                security
+                                setup is optimized and connected to a trusted monitoring provider.
                                 <div class="mb-4 mt-2">
                                     <h3 class="font-weight-regular">Contact us today for a personalized quote! </h3>
-                                    <h3 class="font-weight-regular">We can help you secure your home, business or any other premises.</h3>
+                                    <h3 class="font-weight-regular">We are here to help secure your home, business, or
+                                        any other property.</h3>
                                 </div>
 
                                 <v-divider class="my-4"></v-divider>
@@ -50,62 +53,87 @@ with a trusted monitoring provider.
                                 <v-row>
                                     <v-col xs="12" sm="6" md="6" lg="6" xl="6">
                                         <v-card class="pa-3 card-equal-height" color="#F0F4FF">
-                                            <v-card-title class="headline text-card-color">Basic Monitoring</v-card-title>
+                                            <v-card-title class="headline text-card-color">Basic
+                                                Monitoring</v-card-title>
 
                                             <v-list dense style="background-color: #F0F4FF;">
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Starting at $25.95/month + Tax</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Starting at $25.95/month + Tax
+                                                    </v-list-item-title>
+                                                </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Requires Standard Line Connection
+                                                    </v-list-item-title>
                                                 </v-list-item>
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Requires Standard Line</v-list-item-content>
+
                                                 </v-list-item>
                                                 <v-list-item>
-                                                
+                                                    
                                                 </v-list-item>
                                                 <v-list-item>
-                                              
+                                                    
                                                 </v-list-item>
                                             </v-list>
+
 
                                         </v-card>
                                     </v-col>
                                     <v-col xs="12" sm="6" md="6" lg="6" xl="6">
                                         <v-card class="pa-3 card-equal-height" color="#F0FFF4">
-                                            <v-card-title class="headline text-card-color">Cellular Monitoring</v-card-title>
-                                            <v-list style="background-color: #F0FFF4" dense>
+                                            <v-card-title class="headline text-card-color">Cellular
+                                                Monitoring</v-card-title>
+                                            <v-list dense style="background-color: #F0FFF4">
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> $39.95/month + Tax</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        $39.95/month + Tax
+                                                    </v-list-item-title>
                                                 </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Includes 2 doors & 1 motion sensor</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Includes 2 doors & 1 motion sensor
+                                                    </v-list-item-title>
                                                 </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Wireless connection and remote control
-                                                    </v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Wireless connection and remote control via mobile app
+                                                    </v-list-item-title>
                                                 </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Integrates with smart home devices
-                                                    </v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Integrates with smart home devices
+                                                    </v-list-item-title>
                                                 </v-list-item>
                                             </v-list>
+
 
                                         </v-card>
                                     </v-col>
@@ -155,7 +183,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .my-5 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -190,32 +218,35 @@ export default {
 }
 
 .left-section {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .rating {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
 }
 
 .rating span {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .rating v-icon {
-  margin: 0 0.2rem;
+    margin: 0 0.2rem;
 }
+
 .text-dark {
     color: black;
 }
+
 .text-card-color {
-    color:#333333
+    color: #333333
 }
+
 .card-equal-height {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 </style>

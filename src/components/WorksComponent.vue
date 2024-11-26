@@ -1,5 +1,5 @@
 <template>
-  <v-container class="py-5">
+  <v-container fluid class="py-5">
     <v-row align="center" justify="center" class="text-center my-5">
       <v-col cols="12">
         <h3 class="headline text-dark">Quick & Easy: How DO DAP Works</h3>
@@ -7,7 +7,7 @@
     </v-row>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" v-for="(step, index) in steps" :key="index">
-        <v-card hover class="mx-auto" :color="step.color">
+        <v-card hover class="mx-auto" :color="step.color"  :style="{ height: '150px' }">
           <v-row no-gutters align="center" class="mt-2">
             <v-col cols="auto">
               <v-icon :class="step.icon" :size="40" class="ml-1" ></v-icon>
@@ -38,10 +38,10 @@ export default {
   data() {
     return {
       steps: [
-        { icon: 'mdi mdi-file-find-outline', title: 'Choose & Submit', color: '#F3FFFF', description:'Select your service and submit your request easily.' },
-        { icon: 'mdi mdi-face-agent', title: 'We Connect', color: '#F0FFF4', description:'Our team will promptly reach out to discuss your needs.' },
-        { icon: 'mdi mdi-face-agent', title: 'Schedule & Confirm', color: '#F5F0FF',description: 'Agree on a convenient time and confirm your booking.' },
-        { icon: 'mdi mdi-check-circle-outline', title: 'Service Ready', color: '#F9F5E3', description:'Enjoy our professional service delivered as scheduled.' },
+        { icon: 'mdi mdi-file-find-outline', title: 'Choose & Submit', color: '#F3FFFF', description:'Select the service you need and submit your request.' },
+        { icon: 'mdi mdi-face-agent', title: 'We Connect', color: '#F0FFF4', description:'Our team will promptly reach out to discuss your requirements.' },
+        { icon: 'mdi mdi-face-agent', title: 'Schedule & Confirm', color: '#F5F0FF',description: 'Confirm a convenient time to schedule your service. ' },
+        { icon: 'mdi mdi-check-circle-outline', title: 'Service Ready', color: '#F9F5E3', description:'Enjoy professional service delivered as scheduled. ' },
       ]
     };
   }

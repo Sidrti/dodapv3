@@ -22,13 +22,15 @@
       </v-row>
       <v-row class="text-center">
         <v-col cols="12">
-          <h4 class="headline mb-5">Expert Security Solutions at Your Fingertips</h4>
+          <h4 class="headline mb-5">Trusted Security Solutions for Homes and Businesses</h4>
           <p class="caption mt-5">
-We make securing your home or business effortless and reliable. We specialize in installing CCTV
-cameras, setting up monitored alarm systems, and providing low-voltage tech services. Our
-certified experts troubleshoot and handle all installation tasks, ensuring your surveillance and
-alarms are properly installed and monitored. Our services are prompt, efficient, and tailored to
-your convenience
+            We make protecting your home or business effortless and stress-free, offering <b>on-demand 
+              access </b>to professional services. Specializing in <b>Security Camera Installations, Monitored Alarm 
+Systems, and Low-Voltage Tech Services</b>, our certified experts deliver precision and 
+professionalism in every installation. We handle the entire process—from setup to full system 
+demonstrations—so you can easily monitor and control your security. Our services are fast, 
+efficient, and tailored to your needs, with plans to expand our offerings in the future. 
+<b>Experience expert service at your convenience, delivered when you need it</b>.
           </p>
         </v-col>
       </v-row>

@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline text-break d-flex justify-space-between align-center">
-                                <span>CCTV Camera: Security Camera Packages</span>
+                                <span>Security Camera Installation Packages</span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
                                         <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -34,11 +34,15 @@
 
                             </v-card-subtitle>
                             <v-card-text class="text">
-                                <p class="mb-4 subheading">Enhance Your Security with Expertly Installed HD Cameras</p>
-                                Boost your security with our high-definition CCTV camera packages. Our expert
-                                technicians
-                                ensure seamless installation using high-quality wiring.
-                                <h3 class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!</h3>
+                                <p class="mb-4 subheading">Boost Your Security with Professional, High-Quality Camera
+                                    Installations </p>
+
+                                Protect your property with our high-quality camera packages. Our 4-camera packages
+                                start at $1650, including high-quality installation and premium wiring. Our certified
+                                technicians ensure professional, precise work for optimal security and performance.
+                                Get in touch today for a customized quote and secure your property with ease!
+                                <h3 class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!
+                                </h3>
                                 <v-divider class="my-4"></v-divider>
 
                                 <h3 class="mb-3 subheading">Packages</h3>
@@ -50,27 +54,70 @@
 
                                             <v-list dense style="background-color: #F0F4FF;">
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 4MP
-                                                        Resolution</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        4MP HD Resolution
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Cameras for clear day and night vision
+                                                    </v-list-item-subtitle>
                                                 </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Price Starting at
-                                                        $1650</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Network Video Recorder (NVR)
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Up to 30 days of recording storage
+                                                    </v-list-item-subtitle>
                                                 </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
                                                 <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 10% Discount
-                                                        Available</v-list-item-content>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        High-quality Installation
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Premium wiring by certified technicians
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        Mobile App Integration
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Remote monitoring capabilities
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-black">
+                                                        10% Discount
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        On your first installation
+                                                    </v-list-item-subtitle>
                                                 </v-list-item>
                                             </v-list>
+
 
                                         </v-card>
                                     </v-col>
@@ -78,26 +125,72 @@
                                         <v-card class="pa-3 card-equal-height" color="#F0FFF4">
                                             <v-card-title class="headline text-card-color">Customized
                                                 Packages</v-card-title>
-                                            <v-list style="background-color: #F0FFF4" dense>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Tailored to your
-                                                        needs</v-list-item-content>
-                                                </v-list-item>
-                                             
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Additional Discounts
-                                                    </v-list-item-content>
-                                                </v-list-item>
-                                                <v-list-item>
-                                                  
-                                                </v-list-item>
-                                            </v-list>
+                                                <v-list dense style="background-color: #F0FFF4">
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black">
+      4MP HD Cameras
+    </v-list-item-title>
+    <v-list-item-subtitle class="text-card-color">
+      Popular Choice for sharpness and reliable performance
+    </v-list-item-subtitle>
+  </v-list-item>
+  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black">
+      Flexible Options
+    </v-list-item-title>
+    <v-list-item-subtitle class="text-card-color">
+      Higher resolutions available upon request
+    </v-list-item-subtitle>
+  </v-list-item>
+  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black">
+      Additional Cameras
+    </v-list-item-title>
+    <v-list-item-subtitle class="text-card-color">
+         Extended NVR Storage For larger setups and longer recording capacity
+    </v-list-item-subtitle>
+  </v-list-item>
+  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black">
+      Custom Camera Placement
+    </v-list-item-title>
+    <v-list-item-subtitle class="text-card-color">
+      For optimal coverage and security
+    </v-list-item-subtitle>
+  </v-list-item>
+  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black">
+      Discounts Available
+    </v-list-item-title>
+    <v-list-item-subtitle class="text-card-color">
+      For multi-camera setups
+    </v-list-item-subtitle>
+  </v-list-item>
+</v-list>
+
 
                                         </v-card>
                                     </v-col>
@@ -179,6 +272,7 @@ export default {
     /* Move the container up by 25% of its own height */
     z-index: 1;
 }
+
 .margin-top-negative {
     top: -5%;
 }
@@ -208,10 +302,11 @@ export default {
 .text-card-color {
     color: #333333
 }
+
 .card-equal-height {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 </style>
