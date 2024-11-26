@@ -10,7 +10,7 @@
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Tech Services: Professional Low Voltage Services</span>
+                                <span>Certified Technicians: Expert Low-Voltage Services </span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
                                         <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -34,9 +34,10 @@
 
                             </v-card-subtitle>
                             <v-card-text class="text">
-                                <p class="mb-4 subheading">Expert Technicians for All Your Low-Voltage Needs</p>
-                                Our efficient technicians are skilled in structured wiring and offer comprehensive solutions from
-installation to troubleshooting and training.
+                                <p class="mb-4 subheading">Certified Experts for All Your Low-Voltage Needs</p>
+                                Our certified technicians specialize in structured wiring and full low-voltage solutions, from 
+installation to troubleshooting and training. If any additional hardware is required, we will 
+always consult with you for approval before proceeding—no surprises.
                                 <br> <br>
                                 Additional hardware costs will be determined on-site.
 
@@ -50,37 +51,47 @@ installation to troubleshooting and training.
                                         <v-card class="pa-3" color="#F0F4FF">
                                             <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
-                                            <v-list dense style="background-color: #F0F4FF;">
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color">
-                                                        $95/hr</v-list-item-content>
-                                                </v-list-item>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> 10%
-                                                        discount upon signing up</v-list-item-content>
-                                                </v-list-item>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Minimum Requirment: 
-                                                        2 hours</v-list-item-content>
-                                                </v-list-item>
-                                                <v-list-item>
-                                                    <v-list-item-icon>
-                                                        <v-icon color="primary">mdi-check</v-icon>
-                                                    </v-list-item-icon>
-                                                    <v-list-item-content class="text-card-color"> Discounted rates apply
-                                                        after the minimum hours</v-list-item-content>
-                                                </v-list-item>
-                                             
-                                            </v-list>
+                                            <v-list dense style="background-color: #F0F4FF;" lines="two">
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
+      $95/hr
+    </v-list-item-title>
+  </v-list-item>
+  <v-divider color="black" ></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
+      10% discount upon signing up
+    </v-list-item-title>
+  </v-list-item>
+  <v-divider color="black"></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
+      Minimum Requirement: 2 hours
+    </v-list-item-title>
+  </v-list-item>
+  <v-divider color="black" ></v-divider>
+
+  <v-list-item>
+    <template v-slot:prepend>
+      <v-icon color="blue">mdi-check</v-icon>
+    </template>
+    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
+      Discounted rates apply after the minimum hours
+    </v-list-item-title>
+  </v-list-item>
+</v-list>
+
 
                                         </v-card>
                                     </v-col>

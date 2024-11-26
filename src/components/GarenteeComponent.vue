@@ -6,9 +6,9 @@
             <v-img src="@/assets/guarantee.png" class="mb-4" contain width="120"></v-img>
             <h1 class="headline">Expert Services, Guaranteed Quality</h1>
             <p class="text mt-4">
-              Experience top-tier services with our skilled professionals. We pride ourselves on delivering
-exceptional quality and reliability. With competitive pricing and a commitment to excellence, we
-ensure your needs are met with the highest standards. </p>
+              Experience top-tier service with our skilled professionals. We take pride in delivering 
+exceptional quality and reliability. With competitive pricing and a commitment to excellence, we 
+ensure every job meets the highest standards. </p>
             <!-- <v-btn text class="white--text mt-5">Learn more</v-btn> -->
           </div>
         </v-col>

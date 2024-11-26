@@ -46,17 +46,17 @@ export default {
       searchItems: [
         {
           prependIcon: 'mdi-clock-outline',
-          title: 'CCTV Camera',
+          title: 'Camera Installations',
           route: '/CCTVCamera',
         },
         {
           prependIcon: 'mdi-clock-outline',
-          title: 'Security Alarms',
+          title: 'Alarm System Installations',
           route: '/SecurityAlarm',
         },
         {
           prependIcon: 'mdi-clock-outline',
-          title: 'Tech Services',
+          title: 'Certified Technicians',
           route: '/TechServices',
         },
       ],
