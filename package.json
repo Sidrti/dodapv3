@@ -13,6 +13,7 @@
     "core-js": "^3.34.0",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
+    "vue-google-autocomplete": "^1.1.4",
     "vue-the-mask": "^0.11.1",
     "vuetify": "^3.5.0"
   },
