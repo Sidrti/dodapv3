@@ -1,27 +1,29 @@
 <template>
   <v-container>
     <v-card class="pa-4 bg-white">
-      <v-card-title class="headline-bold mb-5">Book Consultation</v-card-title>
+      <v-card-title class="headline-bold mb-5">Talk to an Expert</v-card-title>
       <v-form @submit.prevent="submitForm">
         <v-row>
-          <v-col cols="12" md="6">
-            <v-text-field v-model="formData.firstName" label="First name" variant="outlined" hint="Alex" required></v-text-field>
+          <v-col cols="6" >
+            <v-text-field class="form-field" v-model="formData.firstName" label="Full Name" variant="outlined" hint="Alex" required dense></v-text-field>
           </v-col>
-          <v-col cols="12" md="6">
-            <v-text-field v-model="formData.lastName" label="Last name" variant="outlined" hint="Smith" required></v-text-field>
+          <v-col cols="6">
+            <v-text-field  class="form-field" v-model="formData.email" label="Email" variant="outlined" hint="alex@example.com" required dense></v-text-field>
           </v-col>
-        </v-row>
-        <v-row>
+          <v-col cols="6">
+            <v-text-field class="form-field" v-model="formData.phoneNumber" label="Phone number" variant="outlined" hint="(647) 555-1234" v-mask="'(###) ###-####'" required dense></v-text-field>
+          </v-col>
+          <v-col cols="6">
+            <v-text-field class="form-field" ref="googleAutoComplete" v-model="formData.address" label="Address" variant="outlined" @focus="initializeGoogleAutocomplete" dense></v-text-field>
+          </v-col>
           <v-col cols="12">
-            <v-text-field v-model="formData.email" label="Email" variant="outlined" hint="alex@example.com" required></v-text-field>
+            <v-textarea v-model="formData.notes" label="Additional Notes"
+                  variant="outlined" hint="Provide any additional details about what service you need "
+                      outlined ></v-textarea>
+                                
           </v-col>
         </v-row>
-        <v-row>
-          <v-col cols="12">
-            <v-text-field v-model="formData.phoneNumber" label="Phone number" variant="outlined" hint="(647) 555-1234" v-mask="'(###) ###-####'" required></v-text-field>
-          </v-col>
-        </v-row>
-        <v-btn type="submit" color="primary" class="mt-4" :loading="formData.loading">Book Now</v-btn>
+        <v-btn type="submit" color="success" class="mt-4" :loading="formData.loading">Book Now</v-btn>
       </v-form>
     </v-card>
 
@@ -62,6 +64,22 @@ export default {
     };
   },
   methods: {
+    initializeGoogleAutocomplete() {
+            const self = this;
+
+            if (!this.googleAutocomplete) {
+
+                const input = this.$refs.googleAutoComplete.$el.querySelector('input');
+                this.googleAutocomplete = new google.maps.places.Autocomplete(input, {
+                    componentRestrictions: { country: ['ca'] }
+                });
+
+                this.googleAutocomplete.addListener('place_changed', () => {
+                    const place = this.googleAutocomplete.getPlace();
+                    self.formData.address = place.formatted_address;
+                });
+            }
+        },
     async submitForm() {
       try {
         this.formData.loading = true;
@@ -83,5 +101,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add any necessary styles here */
+
 </style>

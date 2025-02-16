@@ -37,83 +37,82 @@
                                 <p class="mb-4 subheading">Boost Your Security with Professional, High-Quality Camera
                                     Installations </p>
 
-                                Protect your property with our high-quality camera packages. Our 4-camera packages
-                                start at $1650, including high-quality installation and premium wiring. Our certified
-                                technicians ensure professional, precise work for optimal security and performance.
-                                Get in touch today for a customized quote and secure your property with ease!
-                                <h3 class="mb-4 mt-2 font-weight-regular">Contact us today for a personalized quote!
+                                    Secure your home or business with high-quality security cameras installed by experts. Starting 
+at $1650, our 4-camera packages include everything you need for clear, reliable monitoring—
+ day and night. We’ll handle the setup so you can focus on peace of mind. 
+                                <h3 class="mb-4 mt-2 font-weight-regular">Fill out the form below to get started—our team will contact you shortly! 
                                 </h3>
                                 <v-divider class="my-4"></v-divider>
 
                                 <h3 class="mb-3 subheading">Packages</h3>
                                 <v-row>
                                     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                                        <v-card class="pa-3 card-equal-height" color="#F0F4FF">
-                                            <v-card-title class="headline text-card-color">4-Camera NVR
+                                        <v-card class="pa-3 card-equal-height card-bg-1">
+                                            <v-card-title class="headline text-card-color">4-Cameras NVR
                                                 Package</v-card-title>
 
-                                            <v-list dense style="background-color: #F0F4FF;">
+                                            <v-list dense style="background-color: transparent;">
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
-                                                        4MP HD Resolution
+                                                    <v-list-item-title class="text-white">
+                                                        2K HD Resolution Cameras
                                                     </v-list-item-title>
                                                     <v-list-item-subtitle class="text-card-color">
-                                                        Cameras for clear day and night vision
+                                                        Crystal-clear footage for day and night monitoring
                                                     </v-list-item-subtitle>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Network Video Recorder (NVR)
                                                     </v-list-item-title>
                                                     <v-list-item-subtitle class="text-card-color">
-                                                        Up to 30 days of recording storage
+                                                        Stores up to 30 days of recordings
                                                     </v-list-item-subtitle>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
-                                                        High-quality Installation
+                                                    <v-list-item-title class="text-white">
+                                                        Professional Installation
                                                     </v-list-item-title>
                                                     <v-list-item-subtitle class="text-card-color">
-                                                        Premium wiring by certified technicians
+                                                        Neat and clean wiring setup by certified technicians
                                                     </v-list-item-subtitle>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Mobile App Integration
                                                     </v-list-item-title>
                                                     <v-list-item-subtitle class="text-card-color">
-                                                        Remote monitoring capabilities
+                                                        Check your cameras anytime, from anywhere
                                                     </v-list-item-subtitle>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
-                                                        10% Discount
+                                                    <v-list-item-title class="text-white">
+                                                        Exclusive Discount
                                                     </v-list-item-title>
                                                     <v-list-item-subtitle class="text-card-color">
-                                                        On your first installation
+                                                        Book now and save 10% on your setup
                                                     </v-list-item-subtitle>
                                                 </v-list-item>
                                             </v-list>
@@ -122,74 +121,74 @@
                                         </v-card>
                                     </v-col>
                                     <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                                        <v-card class="pa-3 card-equal-height" color="#F0FFF4">
-                                            <v-card-title class="headline text-card-color">Customized
-                                                Packages</v-card-title>
-                                                <v-list dense style="background-color: #F0FFF4">
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black">
-      4MP HD Cameras
-    </v-list-item-title>
-    <v-list-item-subtitle class="text-card-color">
-      Popular Choice for sharpness and reliable performance
-    </v-list-item-subtitle>
-  </v-list-item>
-  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                        <v-card class="pa-3 card-equal-height card-bg-2">
+                                            <v-card-title class="headline text-card-color">Customized Packages</v-card-title>
+                                                <small class="text-card-color card-subheadline">Need something tailored to your property? </small>
+                                            <v-list dense style="background-color: transparent">
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="white">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-white">
+                                                        Upgraded 2K Cameras
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        A popular choice for sharp and reliable performance
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black">
-      Flexible Options
-    </v-list-item-title>
-    <v-list-item-subtitle class="text-card-color">
-      Higher resolutions available upon request
-    </v-list-item-subtitle>
-  </v-list-item>
-  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="white">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-white">
+                                                        Flexible Options
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Add cameras or upgrade to higher resolutions
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black">
-      Additional Cameras
-    </v-list-item-title>
-    <v-list-item-subtitle class="text-card-color">
-         Extended NVR Storage For larger setups and longer recording capacity
-    </v-list-item-subtitle>
-  </v-list-item>
-  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="white">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-white">
+                                                        Expanded Storage Solutions
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Ideal for larger properties
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black">
-      Custom Camera Placement
-    </v-list-item-title>
-    <v-list-item-subtitle class="text-card-color">
-      For optimal coverage and security
-    </v-list-item-subtitle>
-  </v-list-item>
-  <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="white">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-white">
+                                                        Custom Camera Placement
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Designed for complete property coverage
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black">
-      Discounts Available
-    </v-list-item-title>
-    <v-list-item-subtitle class="text-card-color">
-      For multi-camera setups
-    </v-list-item-subtitle>
-  </v-list-item>
-</v-list>
+                                                <v-list-item>
+                                                    <template v-slot:prepend>
+                                                        <v-icon color="white">mdi-check</v-icon>
+                                                    </template>
+                                                    <v-list-item-title class="text-white">
+                                                        Special Discounts
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle class="text-card-color">
+                                                        Save more when you bundle multiple cameras
+                                                    </v-list-item-subtitle>
+                                                </v-list-item>
+                                            </v-list>
 
 
                                         </v-card>
@@ -227,7 +226,7 @@
                 </div>
             </v-col> -->
             <!-- Right Section -->
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12">
                 <BookingFormComponent></BookingFormComponent>
             </v-col>
         </v-row>
@@ -300,7 +299,7 @@ export default {
 }
 
 .text-card-color {
-    color: #333333
+    color: #fff !important
 }
 
 .card-equal-height {
@@ -308,5 +307,19 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+.card-bg-1 {
+   
+    background: #FF6F61 ;
+    color: #ffffff ;
+}
+.card-bg-2 {
+    background: #6A5ACD;
+    color: #ffffff ;
+}
+.card-subheadline {
+    padding-left: 16px;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 </style>

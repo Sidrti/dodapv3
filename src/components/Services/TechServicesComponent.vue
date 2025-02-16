@@ -3,14 +3,14 @@
         <!-- First Container -->
     </v-container>
     <v-container class="overlapping-container">
-    
+
         <v-row>
             <v-col cols="12">
                 <v-row>
                     <v-col cols="12">
                         <v-card class="pa-4 bg-white">
                             <v-card-title class="headline d-flex justify-space-between align-center">
-                                <span>Certified Technicians: Expert Low-Voltage Services </span>
+                                <span>Smart Home and Low-Voltage Installation Professionals </span>
                                 <div>
                                     <a href="mailto:info@dodap.ca">
                                         <v-btn color="teal" icon="mdi-email" outlined class="mr-3"></v-btn>
@@ -34,142 +34,156 @@
 
                             </v-card-subtitle>
                             <v-card-text class="text">
-                                <p class="mb-4 subheading">Certified Experts for All Your Low-Voltage Needs</p>
-                                Our certified technicians specialize in structured wiring and full low-voltage solutions, from 
-installation to troubleshooting and training. If any additional hardware is required, we will 
-always consult with you for approval before proceeding—no surprises.
+                                <p class="mb-4 subheading">Smart, Reliable, and Professional Solutions for Your Home or
+                                    Business</p>
+                                Our skilled technicians specialize in low-voltage installations, including smart home
+                                alarms,
+                                Starlink setups, structured wiring, cable fishing, and personalized training on NVRs and
+                                DVRs.
+                                Our technicians are dedicated to making your setup smooth, professional, and
+                                stress-free—no
+                                surprises, just results. <br><br>
+                                <i>Note: Our technicians specialize in low-voltage systems and are trained in
+                                    non-electrical
+                                    installations to provide safe and efficient service.
+                                    If additional work or hardware is needed, we will always discuss it with you
+                                    beforehand—
+                                    ensuring transparency and no unexpected costs.</i>
                                 <br> <br>
                                 Additional hardware costs will be determined on-site.
 
-                              
+
                                 <v-divider class="my-4"></v-divider>
-                                <!-- 
-                                <h3 class="mb-3 subheading">Pricing</h3> -->
-                             
-                                <v-row>
-                                    <v-col cols="12" sm="5" md="5" lg="5" xl="5">
-                                        <v-card class="pa-3" color="#F0F4FF">
-                                            <v-card-title class="headline text-card-color">Pricing</v-card-title>
 
-                                            <v-list dense style="background-color: #F0F4FF;" lines="two">
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
-      $95/hr
-    </v-list-item-title>
-  </v-list-item>
-  <v-divider color="black" ></v-divider>
+                                <v-card-title class="headline">Why Choose Us ?</v-card-title>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
-      10% discount upon signing up
-    </v-list-item-title>
-  </v-list-item>
-  <v-divider color="black"></v-divider>
+                                <v-row class="fill-height">
+    <!-- Pricing Card -->
+    <v-col cols="12" sm="5" class="d-flex">
+      <v-card class="flex-grow-1 pa-3" color="#EEF2FF">
+        <v-card-title class="headline text-primary">Pricing</v-card-title>
+        <v-list dense bg-color="#EEF2FF">
+          <v-list-item>
+            <v-list-item-title class="text-black">
+              $ 170 for the first hour
+            </v-list-item-title>
+            <v-list-item-subtitle class="text-indigo-darken-1">
+              Covers travel and initial service
+            </v-list-item-subtitle>
+          </v-list-item>
+          <v-divider color="indigo-lighten-1" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
-      Minimum Requirement: 2 hours
-    </v-list-item-title>
-  </v-list-item>
-  <v-divider color="black" ></v-divider>
+          <v-list-item>
+            <v-list-item-title class="text-black">
+              $ 95/hour
+            </v-list-item-title>
+            <v-list-item-subtitle class="text-indigo-darken-1 wrap-text">
+              Competitive rates for premium services
+            </v-list-item-subtitle>
+          </v-list-item>
+          <v-divider color="indigo-lighten-1" class="mt-2 mb-3"></v-divider>
 
-  <v-list-item>
-    <template v-slot:prepend>
-      <v-icon color="blue">mdi-check</v-icon>
-    </template>
-    <v-list-item-title class="text-black"  style="white-space: normal; word-wrap: break-word;">
-      Discounted rates apply after the minimum hours
-    </v-list-item-title>
-  </v-list-item>
-</v-list>
+          <v-list-item>
+            <v-list-item-title class="text-black">
+              Exclusive Online Discount
+            </v-list-item-title>
+            <v-list-item-subtitle class="text-indigo-darken-1 wrap-text">
+              <b class="text-indigo-darken-3">Save 10%    !</b><br><br>
+              Pay just <b class="text-indigo-darken-3">$153 for the first hour</b> (normally $170) and <b class="text-indigo-darken-3">$85/hour</b> after that
+            </v-list-item-subtitle>
+          </v-list-item>
+        </v-list>
+      </v-card>
+    </v-col>
 
+    <!-- Feature Cards -->
+    <v-col cols="12" sm="7" class="d-flex">
+      <v-row class="flex-grow-1">
+        <!-- First Row -->
+        <v-col cols="6" class="d-flex">
+          <v-card hover class="flex-grow-1" color="#F0F9FF">
+            <v-row no-gutters align="center" class="fill-height">
+              <v-col cols="auto">
+                <v-icon 
+                  class="mdi mdi-certificate ml-2 rotate-icon" 
+                  :size="iconSize" 
+                  color="#0369A1"
+                ></v-icon>
+              </v-col>
+              <v-col>
+                <v-card-title class="text mb-0 text-no-wrap">Certified Experts</v-card-title>
+                <v-card-text class="text-sm text-sky-darken-1">
+                  Trusted, qualified technicians delivering high-quality low-voltage services.
+                </v-card-text>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
 
-                                        </v-card>
-                                    </v-col>
-                                    <v-col cols="12" sm="7" md="7" lg="7" xl="7">
-                                        <v-row>
-                                            <v-col cols="6">
-                                                <v-card hover class="mx-auto card-equal-height" color="#F9F5E3">
-                                                    <v-row no-gutters align="center">
-                                                        <v-col cols="auto">
-                                                            <v-icon class="mdi mdi-certificate ml-2" size="35"
-                                                                color="black"></v-icon>
-                                                        </v-col>
-                                                        <v-col>
-                                                            <v-card-title class="text mb-0 white-space-preserve">
-                                                                Fully Accredited
-                                                            </v-card-title>
-                                                        </v-col>
-                                                    </v-row>
-                                                    <v-card-text class="text-sm">Our tech services are fully accredited to ensure the highest standards of
-                                                    quality and reliability.</v-card-text>
-                                                </v-card>
-                                            </v-col>
-                                            <v-col cols="6">
-                                                <v-card hover class="mx-auto card-equal-height" color="#F5F0FF">
-                                                    <v-row no-gutters align="center">
-                                                        <v-col cols="auto">
-                                                            <v-icon class="mdi mdi-account-tie ml-2" size="35"
-                                                                color="black"></v-icon>
-                                                        </v-col>
-                                                        <v-col>
-                                                            <v-card-title class="text mb-0 white-space-preserve">
-                                                                Experienced
-                                                            </v-card-title>
-                                                        </v-col>
-                                                    </v-row>
-                                                    <v-card-text class="text-sm">Our team is highly experienced, bringing years of expertise to deliver exceptional
-                                                        tech services.</v-card-text>
-                                                </v-card>
-                                            </v-col>
-                                        </v-row>
-                                        <v-row>
-                                            <v-col cols="6">
-                                                <v-card hover class="mx-auto card-equal-height" color="#F0FFF4">
-                                                    <v-row no-gutters align="center">
-                                                        <v-col cols="auto">
-                                                            <v-icon class="mdi mdi-lightbulb-on-outline ml-2" size="35"
-                                                                color="black"></v-icon>
-                                                        </v-col>
-                                                        <v-col>
-                                                            <v-card-title class="text mb-0 white-space-preserve">
-                                                                Innovative Approach
-                                                            </v-card-title>
-                                                        </v-col>
-                                                    </v-row>
-                                                    <v-card-text class="text-sm">Our techs think outside the box to efficiently and promptly install and
-                                                        resolve your issues.</v-card-text>
-                                                </v-card>
-                                            </v-col>
-                                            <v-col cols="6">
-                                                <v-card hover class="mx-auto card-equal-height" color="#F3FFFF">
-                                                    <v-row no-gutters align="center">
-                                                        <v-col cols="auto">
-                                                            <v-icon class="mdi mdi-school ml-2" size="35"
-                                                                color="black"></v-icon>
-                                                        </v-col>
-                                                        <v-col>
-                                                            <v-card-title class="text mb-0">
-                                                                Unmatched Support
-                                                            </v-card-title>
-                                                        </v-col>
-                                                    </v-row>
-                                                    <v-card-text class="text-sm">Our friendly, dedicated techs ensure smooth and stress-free services for
-                                                        your home or business.</v-card-text>
-                                                </v-card>
-                                            </v-col>
-                                        </v-row>
-                                    </v-col>
-                                </v-row>
+        <v-col cols="6" class="d-flex">
+          <v-card hover class="flex-grow-1" color="#FDF4FF">
+            <v-row no-gutters align="center" class="fill-height">
+              <v-col cols="auto">
+                <v-icon 
+                  class="mdi mdi-account-tie ml-2 bounce-icon" 
+                  :size="iconSize" 
+                  color="#A21CAF"
+                ></v-icon>
+              </v-col>
+              <v-col>
+                <v-card-title class="text mb-0 text-no-wrap">Proven Experience</v-card-title>
+                <v-card-text class="text-sm text-fuchsia-darken-1">
+                  Years of expertise for reliable and professional results.
+                </v-card-text>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+
+        <!-- Second Row -->
+        <v-col cols="6" class="d-flex">
+          <v-card hover class="flex-grow-1" color="#ECFDF5">
+            <v-row no-gutters align="center" class="fill-height">
+              <v-col cols="auto">
+                <v-icon 
+                  class="mdi mdi-lightbulb-on-outline ml-2 pulse-icon" 
+                  :size="iconSize" 
+                  color="#059669"
+                ></v-icon>
+              </v-col>
+              <v-col>
+                <v-card-title class="text mb-0 text-no-wrap">Smart Solutions</v-card-title>
+                <v-card-text class="text-sm text-emerald-darken-1">
+                  Efficient, modern methods tailored to your needs.
+                </v-card-text>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+
+        <v-col cols="6" class="d-flex">
+          <v-card hover class="flex-grow-1" color="#FFF7ED">
+            <v-row no-gutters align="center" class="fill-height">
+              <v-col cols="auto">
+                <v-icon 
+                  class="mdi mdi-school ml-2 float-icon" 
+                  :size="iconSize" 
+                  color="#EA580C"
+                ></v-icon>
+              </v-col>
+              <v-col>
+                <v-card-title class="text mb-0 text-no-wrap">Dedicated Support</v-card-title>
+                <v-card-text class="text-sm text-orange-darken-1">
+                  Customer-first service for a stress-free experience.
+                </v-card-text>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-col>
+  </v-row>
+
                                 <v-divider class="my-4"></v-divider>
                                 <StepsComponent></StepsComponent>
                             </v-card-text>
@@ -178,34 +192,12 @@ always consult with you for approval before proceeding—no surprises.
                 </v-row>
             </v-col>
         </v-row>
-      
+
     </v-container>
 
     <v-container class="overlapping-container">
         <v-row>
-            <!-- Left Section -->
-            <!-- <v-col cols="12" md="6">
-                <div class="left-section">
-                    <div class="headline text-dark">Tech Services: Professional Low-Voltage Solutions</div>
-                    <div class="rating">
-                        <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
-                        <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
-                        <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
-                        <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
-                        <v-icon icon="mdi-star" class="text-white" color="green"></v-icon>
-                    </div>
-                    <p class="text-dark caption">
-                        At DO DAP, we understand that every business has unique technological needs and requires
-                        specific solutions to ensure maximum efficiency and productivity. That’s why we offer a
-                        complimentary, no-obligation site survey to evaluate your current technology setup and identify
-                        areas for improvement.
-                    </p>
-                    <br>
- 
-                </div>
-            </v-col> -->
-            <!-- Right Section -->
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12">
                 <BookingFormComponent></BookingFormComponent>
             </v-col>
         </v-row>
@@ -214,11 +206,24 @@ always consult with you for approval before proceeding—no surprises.
 
 <script>
 export default {
-    name: "SecurityAlarmComponent",
+    name: "TechServiceComponent",
+    computed: {
+        iconSize() {
+            const breakpoint = this.$vuetify?.breakpoint || {};
+            if (breakpoint.xsOnly) return '20';
+            if (breakpoint.smAndDown) return '27';
+            return '35';
+        },
+    },
 };
 </script>
 
 <style>
+
+.wrap-text {
+    -webkit-line-clamp: unset !important;
+}
+
 .my-5 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -269,13 +274,75 @@ export default {
 .rating v-icon {
     margin: 0 0.2rem;
 }
+
 .card-equal-height {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
+
 .white-space-preserve {
     white-space: preserve-breaks !important;
 }
+/* Icon Animations */
+.rotate-icon {
+  animation: rotate 3s infinite linear;
+}
+
+.bounce-icon {
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.pulse-icon {
+  animation: pulse 2s infinite;
+}
+
+.float-icon {
+  animation: float 3s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+}
+
+
 </style>

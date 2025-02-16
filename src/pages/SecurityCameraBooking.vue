@@ -1,25 +1,25 @@
 <template>
     <div class="gradient-background">
         <v-container>
-            <v-stepper :items="['Client Info', 'Order Items', 'Technican Info']" class="pa-5 stepper-card"
-                v-model="step">
+            <v-form ref="form" v-model="isFormValid">
+                <v-stepper :items="['Information', 'Cart Items', 'Appointment Information']"
+                class="pa-5 stepper-card" v-model="step">
                 <template v-slot:item.1>
-                    <h3 class="text-h5 mb-3 mt-3">Personal Information</h3><br>
+                    <h3 class="text-h5 mb-3 mt-3">Your Information</h3><br>
                     <v-card class="mb-4 pa-4 elevation-2">
                         <h5 class="text-h6 mb-3 mt-3">👋 Welcome to DO DAP !</h5><br>
-                        <v-form @submit.prevent="submitForm">
                             <v-row>
                                 <!-- Full Name Field -->
                                 <v-col cols="12" md="6">
                                     <v-text-field v-model="formData.firstName" label="Full Name" variant="outlined"
-                                        hint="Alex Smith" required prepend-inner-icon="mdi-account"
+                                        hint="Alex Smith" required prepend-inner-icon="mdi-account"  :rules="[rules.required, rules.name]"
                                         class="input-field"></v-text-field>
                                 </v-col>
 
                                 <!-- Email Field -->
                                 <v-col cols="12" md="6">
                                     <v-text-field v-model="formData.email" label="Email" variant="outlined"
-                                        hint="alex@example.com" required prepend-inner-icon="mdi-email"></v-text-field>
+                                        hint="alex@example.com" required prepend-inner-icon="mdi-email"  :rules="[rules.required, rules.email]"></v-text-field>
                                 </v-col>
                             </v-row>
 
@@ -28,7 +28,7 @@
                                 <v-col cols="12" md="6">
                                     <v-text-field v-model="formData.phoneNumber" label="Phone number" variant="outlined"
                                         hint="(647) 555-1234" v-mask="'(###) ###-####'" required
-                                        prepend-inner-icon="mdi-phone"></v-text-field>
+                                        prepend-inner-icon="mdi-phone"  :rules="[rules.required, rules.phoneNumber]"></v-text-field>
                                 </v-col>
 
                                 <!-- Address Field -->
@@ -49,16 +49,12 @@
                                         hint="16th Avenue" required prepend-inner-icon="mdi-map-marker"></v-text-field> -->
                                 </v-col>
                             </v-row>
-                        </v-form>
                     </v-card>
-
-
-
                 </template>
 
                 <template v-slot:item.2>
                     <h3 class="text-h5 mb-3 mt-3">Camera Information</h3><br>
-                    <CameraList></CameraList>
+                    <CameraList @update-cameras="handleCamerasUpdate"></CameraList>
                 </template>
 
                 <template v-slot:item.3>
@@ -69,7 +65,7 @@
                             <!-- Install Date & Time -->
                             <v-col cols="12" md="6">
                                 <v-text-field v-model="formData.scheduleDate" label="Install Date" variant="outlined"
-                                    type="datetime" required prepend-icon="" append-inner-icon=""
+                                    type="date" required prepend-icon="" append-inner-icon=""
                                     prepend-inner-icon="mdi-calendar-clock" append-icon=""></v-text-field>
                             </v-col>
 
@@ -83,30 +79,15 @@
                         <v-row>
 
                             <v-col cols="12" md="6">
-                                <v-select v-model="formData.timeSlot" :items="timeSlots" label="Time Slot"
-                                    variant="outlined" required prepend-inner-icon="mdi-clock-time-four-outline"
-                                    clearable></v-select>
+                                <v-text-field v-model="formData.timeSlot" label="Time Slot" variant="outlined" required
+                                    prepend-inner-icon="mdi-clock-time-four-outline"></v-text-field>
                             </v-col>
 
                             <!-- Technician Phone -->
                             <v-col cols="12" md="6">
-                                <v-text-field v-model="formData.techPhoneNumber" label="Technician Phone Number"
-                                    variant="outlined" hint="(647) 555-1234" v-mask="'(###) ###-####'" required
-                                    prepend-inner-icon="mdi-phone"></v-text-field>
-                            </v-col>
-                        </v-row>
-                        <v-row>
-                            <!-- Technician Name -->
-                            <v-col cols="12" md="6">
-                                <v-text-field v-model="formData.technicianName" label="Technician Name"
-                                    variant="outlined" required prepend-inner-icon="mdi-account"></v-text-field>
-                            </v-col>
-
-                            <!-- Technician Email -->
-                            <v-col cols="12" md="6">
                                 <v-text-field v-model="formData.technicianEmail" label="Technician Email"
                                     variant="outlined" type="email" hint="example@domain.com"
-                                    prepend-inner-icon="mdi-email" required></v-text-field>
+                                    prepend-inner-icon="mdi-email" :rules="[rules.required, rules.email]"></v-text-field>
                             </v-col>
                         </v-row>
 
@@ -127,8 +108,44 @@
                         </v-row>
                     </v-card>
                 </template>
+                <template v-slot:actions>
+                    <v-row class="justify-space-between mt-4">
+                        <!-- Previous Button -->
+                        <v-btn v-if="step > 1" color="primary" variant="tonal" @click="step--">
+                            <v-icon start>mdi-arrow-left</v-icon> Previous
+                        </v-btn>
 
+                        <v-spacer></v-spacer>
+
+                        <!-- Next or Submit Button -->
+                        <v-btn  color="primary" variant="tonal" @click="nextStep" :loading=formData.loading :disabled="formData.loading">
+                            <template v-if="step === 3">
+                                Submit <v-icon end>mdi-check</v-icon>
+                            </template>
+                            <template v-else>
+                                Next <v-icon end>mdi-arrow-right</v-icon>
+                            </template>
+                        </v-btn>
+                    </v-row>
+                </template>
             </v-stepper>
+            </v-form>
+
+            <v-dialog v-model="dialog" max-width="500px" variant="flat">
+      <v-card class="bg-white">
+        <v-card-title class="headline">Submission Successful</v-card-title>
+        <v-card-text>
+          <v-container class="text-center">
+            <v-icon color="green" size="64">mdi-check-circle</v-icon>
+          </v-container>
+          <p class="text-center">Your consultation request has been submitted successfully.</p>
+          <p class="text-center">Our team will contact you shortly.</p>
+        </v-card-text>
+        <v-card-actions>
+          <v-btn color="primary" text @click="dialog = false">OK</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
         </v-container>
     </div>
 </template>
@@ -155,33 +172,59 @@ export default {
                 additionalNotes: "",
                 route: this.$route.path,
             },
+            
             autocomplete: null,
             dialog: false,
             step: 1,
             recognition: null,
-            timeSlots: [
-                "08:00 AM - 10:00 AM",
-                "10:00 AM - 12:00 PM",
-                "12:00 PM - 02:00 PM",
-                "02:00 PM - 04:00 PM",
-                "04:00 PM - 06:00 PM",
-                "06:00 PM - 08:00 PM",
-            ],
+            canProceed: true,
+            isFormValid: false,
+            rules: {
+            required: value => !!value || "This field is required.",
+            email: value =>
+                /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(value) ||
+                "Enter a valid email address.",
+            name: value =>
+                /^[A-Za-z\s]+$/.test(value) || "Name can only contain letters.",
+            phoneNumber: value =>
+                /^\(\d{3}\)\s\d{3}-\d{4}$/.test(value) ||
+                "Enter a valid phone number (e.g., (647) 555-1234).",
+        },
         };
     },
     methods: {
+        nextStep() {
+            if (this.step === 3) {
+                this.submitForm();
+            } else {
+                this.step++;
+            }
+    },
+    
         async submitForm() {
+            const isValid = this.$refs.form.validate();
+
+            if (!isValid) {
+                console.error("Form validation failed.");
+                return;
+            }
             try {
                 this.formData.loading = true;
-                const response = await axios.post("https://api.dodap.ca/api/v2/send-mail", this.formData);
+                const response = await axios.post("https://api.dodap.ca/api/v2/send-email-cctv-booking", this.formData);
                 this.formData.loading = false;
                 this.formData = {};
-                console.log("Form submitted successfully:", response.data);
                 this.dialog = true;
+                console.log("Form submitted successfully:", response.data);
+                setTimeout(()=>window.location.reload(),5000)
+             
+               
             } catch (error) {
                 console.error("Error submitting form:", error);
                 this.formData.loading = false;
             }
+        },
+        handleCamerasUpdate(updatedCameras) {
+            this.formData.cameras = updatedCameras
         },
         startSpeechToText() {
             // Check for browser compatibility
@@ -219,9 +262,9 @@ export default {
         },
         initializeGoogleAutocomplete() {
             const self = this;
-          
+
             if (!this.googleAutocomplete) {
-                
+
                 const input = this.$refs.googleAutoComplete.$el.querySelector('input');
                 this.googleAutocomplete = new google.maps.places.Autocomplete(input, {
                     componentRestrictions: { country: ['ca'] }
@@ -269,6 +312,7 @@ export default {
 :deep(.input-field:hover) {
     transform: translateY(-2px);
 }
+
 :deep(.v-field__outline) {
     border-color: rgba(99, 102, 241, 0.6) !important;
 }
