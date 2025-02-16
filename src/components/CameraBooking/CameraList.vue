@@ -7,13 +7,13 @@
           <v-row >
             <v-col cols="12" sm="12" md="6">
               <v-text-field
-                v-model.number="newCamera.type"
-                label="Camera Type"
+                v-model="newCamera.type"
+                label="Camera Resolution"
                 type="text"
                 variant="outlined"
                 placeholder="4 MP"
                  prepend-inner-icon="mdi-camera"
-                required
+                
               ></v-text-field>
             </v-col>
             
@@ -28,7 +28,7 @@
                   v => !!v || 'Quantity is required',
                   v => v > 0 || 'Quantity must be greater than 0'
                 ]"
-                required
+                
               ></v-text-field>
             </v-col>
             
@@ -44,7 +44,7 @@
                   v => !!v || 'Camera price is required',
                   v => v > 0 || 'Price must be greater than 0'
                 ]"
-                required
+                
               ></v-text-field>
             </v-col>
             
@@ -178,15 +178,16 @@
   </template>
   
   <script setup>
-  import { ref, reactive, computed } from 'vue';
+  import { ref, reactive, computed,watch  } from 'vue';
   
+  const emit = defineEmits(['update-cameras']);
   const isFormValid = ref(false);
   const search = ref('');
   const cameras = ref([]);
   
   
   const headers = [
-    { title: 'Camera Type', key: 'type' },
+    { title: 'Camera Resolution', key: 'type' },
     { title: 'Quantity', key: 'quantity' },
     { title: 'Camera Unit Price', key: 'cameraPrice' },
     { title: 'NVR Unit Price', key: 'nvrPrice' },
@@ -200,7 +201,13 @@
     cameraPrice: null,
     nvrPrice: null,
   });
-  
+  watch(
+  cameras,
+  (newVal) => {
+    emit('update-cameras', newVal); // Emit updated cameras array
+  },
+  { deep: true } // Ensure deep watching for nested object changes
+);
   const addCamera = () => {
     cameras.value.push({ ...newCamera });
     // Reset form

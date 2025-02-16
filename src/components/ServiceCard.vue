@@ -6,7 +6,7 @@
           <v-card-title class="headline">CCTV Technician</v-card-title>
           <v-card-text>Expert CCTV installation and support services.</v-card-text>
           <v-card-actions>
-            <router-link to="/CCTVCamera">
+            <router-link to="/SecurityCamera">
               <v-btn color="primary">Book Now</v-btn>
             </router-link>
 

@@ -52,26 +52,26 @@
                                 <h3 class="mb-3 subheading">Monitoring Plans</h3>
                                 <v-row>
                                     <v-col xs="12" sm="6" md="6" lg="6" xl="6">
-                                        <v-card class="pa-3 card-equal-height" color="#F0F4FF">
+                                        <v-card class="pa-3 card-equal-height card-bg-1">
                                             <v-card-title class="headline text-card-color">Basic
                                                 Monitoring</v-card-title>
 
-                                            <v-list dense style="background-color: #F0F4FF;">
+                                            <v-list dense style="background-color: transparent;">
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Starting at $25.95/month + Tax
                                                     </v-list-item-title>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Requires Standard Line Connection
                                                     </v-list-item-title>
                                                 </v-list-item>
@@ -90,45 +90,45 @@
                                         </v-card>
                                     </v-col>
                                     <v-col xs="12" sm="6" md="6" lg="6" xl="6">
-                                        <v-card class="pa-3 card-equal-height" color="#F0FFF4">
+                                        <v-card class="pa-3 card-equal-height card-bg-2">
                                             <v-card-title class="headline text-card-color">Cellular
                                                 Monitoring</v-card-title>
-                                            <v-list dense style="background-color: #F0FFF4">
+                                            <v-list dense style="background-color: transparent">
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         $39.95/month + Tax
                                                     </v-list-item-title>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Includes 2 doors & 1 motion sensor
                                                     </v-list-item-title>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Wireless connection and remote control via mobile app
                                                     </v-list-item-title>
                                                 </v-list-item>
-                                                <v-divider color="black" class="mt-2 mb-3"></v-divider>
+                                                <v-divider color="white" class="mt-2 mb-3"></v-divider>
 
                                                 <v-list-item>
                                                     <template v-slot:prepend>
-                                                        <v-icon color="blue">mdi-check</v-icon>
+                                                        <v-icon color="white">mdi-check</v-icon>
                                                     </template>
-                                                    <v-list-item-title class="text-black">
+                                                    <v-list-item-title class="text-white">
                                                         Integrates with smart home devices
                                                     </v-list-item-title>
                                                 </v-list-item>
@@ -170,7 +170,7 @@
                 </div>
             </v-col> -->
             <!-- Right Section -->
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12">
                 <BookingFormComponent></BookingFormComponent>
             </v-col>
         </v-row>
@@ -248,5 +248,19 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+.card-bg-1 {
+   
+   background: #FF6F61 ;
+   color: #ffffff ;
+}
+.card-bg-2 {
+   background: #6A5ACD;
+   color: #ffffff ;
+}
+.card-subheadline {
+   padding-left: 16px;
+   margin-top: -10px;
+   margin-bottom: 10px;
 }
 </style>
