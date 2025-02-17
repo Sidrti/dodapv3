@@ -100,7 +100,7 @@ const services = [
       Affordable, Reliable & Quick – Book Your Service Today! 🚀
     </p>
     <v-row class="mt-5">
-      <v-col v-for="(service, index) in services" :key="index" cols="12" sm="6" md="4" lg="3">
+      <v-col v-for="(service, index) in services" :key="index" cols="12" sm="6" md="3" lg="3">
         <PricingCard :service="service" />
       </v-col>
     </v-row>
