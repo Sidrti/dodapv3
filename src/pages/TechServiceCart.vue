@@ -5,7 +5,7 @@
                 <v-stepper :items="['Contact Information', 'Location', 'Schedule','Payment']" class="pa-5 stepper-card"
                     v-model="step">
                     <template v-slot:item.1>
-                        <h3 class="text-h5 mb-3 mt-3">Security Camera Technician</h3><br>
+                        <h3 class="text-h5 mb-3 mt-3">{{description}}</h3><br>
                         <v-card class="mb-4 pa-4 elevation-2">
                             <h2 class="text-h6 mb-3 mt-3">What are your contact details ?</h2><br>
                             <v-row>
@@ -44,7 +44,7 @@
                     </template>
 
                     <template v-slot:item.2>
-                        <h3 class="text-h5 mb-3 mt-3">Security Camera Technician</h3><br>
+                        <h3 class="text-h5 mb-3 mt-3">{{description}}</h3><br>
                         <v-card class="mb-4 pa-4 elevation-2">
                             <div class=" mb-3 mt-3">
                                 <h2 class="text-h6">What is your location ?</h2><br>
@@ -69,7 +69,7 @@
                     </template>
 
                     <template v-slot:item.3>
-                        <h3 class="text-h5 mb-3 mt-3">Security Camera Technician</h3><br>
+                        <h3 class="text-h5 mb-3 mt-3">{{description.data}}</h3><br>
                         <v-row align="stretch">
     <!-- Left Column -->
     <v-col cols="12" md="7">
@@ -181,10 +181,23 @@
 <script>
 import axios from "axios";
 import VueGoogleAutocomplete from "vue-google-autocomplete";
-
+import { ref, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
 export default {
     components: { VueGoogleAutocomplete },
     name: "BookConsultation",
+    setup() {
+    const route = useRoute();
+    const description = ref(null);
+
+    onMounted(() => {
+      if (route.query.data) {
+        description.value = JSON.parse(route.query.data);
+      }
+    });
+
+    return { description };
+  },
     data() {
         return {
             formData: {

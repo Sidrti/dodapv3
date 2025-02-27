@@ -6,16 +6,16 @@
 
 // Plugins
 import vuetify from './vuetify'
-import pinia from '@/stores'
 import router from '@/router'
 import VueTheMask from 'vue-the-mask';
 import Vue3Autocounter from 'vue3-autocounter';
+import store from '@/store';
 
 export function registerPlugins (app) {
   app
     .use(vuetify)
     .use(router)
-    .use(pinia)
     .use(VueTheMask)
+    .use(store)
     .component('vue3-autocounter', Vue3Autocounter)
 }
