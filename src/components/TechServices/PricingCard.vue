@@ -7,8 +7,14 @@
   >
     <!-- Image Wrapper -->
     <div class="image-container">
-      <v-img 
+      <!-- <v-img 
         :src="isHovered ? service.hoverImage : service.image" 
+        height="180" 
+        cover 
+        class="service-image"
+      ></v-img> -->
+      <v-img 
+        :src="service.card_image" 
         height="180" 
         cover 
         class="service-image"
@@ -16,10 +22,10 @@
     </div>
 
     <v-card-title class="d-flex justify-space-between align-center">
-      <span class="text-h6">{{ service.title }}</span>
+      <span class="text-h6">{{ service.name }}</span>
       <div class="d-flex align-center">
         <v-icon size="18" class="mr-1" color="grey">mdi-clock-outline</v-icon>
-        <span class="text-body-2 text-grey">{{ service.time }}</span>
+        <span class="text-body-2 text-grey">{{ service.duration }}</span>
       </div>
     </v-card-title>
 
@@ -27,13 +33,13 @@
       <span>{{ service.rating }}</span>
       <v-rating dense readonly size="20" color="yellow accent-4"
             class="mr-3" length="1" half-increments></v-rating>
-      <span class="text-body-2 mt-2">{{ service.reviews }} reviews</span>
+      <span class="text-body-2 mt-2">{{ service.rater_count }} reviews</span>
     </v-card-subtitle>
 
     <v-card-text>
       <div class="price-info">
-        <span class="original-price">₹{{ service.originalPrice }}</span>
-        <span class="discounted-price">₹{{ service.discountedPrice }}</span>
+        <span class="original-price">{{ service.price }}</span>
+        <span class="discounted-price">{{ service.discounted_price }}</span>
       </div>
     </v-card-text>
 
@@ -55,8 +61,7 @@ export default {
   },
   methods: {
     bookService() {
-      alert(`Booking service: ${this.service.title}`);
-      this.$router.push('/TechServiceDescription'); // Redirect to booking page
+      this.$router.push(`/service/${this.service.id}`);
     },
   },
 };
